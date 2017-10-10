@@ -18,3 +18,4 @@
 *[Derslerde yazılan kodlar](https://github.com/sevketcakir/ds2017)*
 
 > Dökümanlar [Şevket Umut ÇAKIR](http://pau.edu.tr/sucakir) tarafından oluşturulmuştur. İzni dahilinde paylaşılmaktadır.
+Ödevler ise imece olacak şekilde eklenmektedir.
