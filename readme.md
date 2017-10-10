@@ -15,4 +15,6 @@
 
 * [Palindrom İfadeler | Ödev 1](week-3/odev.pdf)
 
+*[Derslerde yazılan kodlar](https://github.com/sevketcakir/ds2017)*
+
 > Dökümanlar [Şevket Umut ÇAKIR](http://pau.edu.tr/sucakir) tarafından oluşturulmuştur. İzni dahilinde paylaşılmaktadır.
