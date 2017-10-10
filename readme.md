@@ -1,9 +1,8 @@
 <div align="center">
   <img src="logo.png" width="300">
 </div>
+
 **Pamukkale Üniversitesi Bilgisayar Mühendisliği Veri Yapıları Eğitim Dökümanları**
-
-
 
 *Sunumlar*
 
