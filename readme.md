@@ -11,5 +11,8 @@
 * [Bağlı Listeler](week-3/week-3.pdf)
 * [Ağaçlar](week-4/week-4.pdf)
 
+*Ödevler*
+
+* [Ödev 1](week-3/odev.pdf)
 
 > Dökümanlar [Şevket Umut ÇAKIR](http://pau.edu.tr/sucakir) tarafından oluşturulmuştur. İzni dahilinde paylaşılmaktadır.
