@@ -13,6 +13,6 @@
 
 *Ödevler*
 
-* [Ödev 1](week-3/odev.pdf)
+* [Palindrom İfadeler | Ödev 1](week-3/odev.pdf)
 
 > Dökümanlar [Şevket Umut ÇAKIR](http://pau.edu.tr/sucakir) tarafından oluşturulmuştur. İzni dahilinde paylaşılmaktadır.
