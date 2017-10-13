@@ -13,7 +13,7 @@
 
 *Ödevler*
 
-* [Palindrom İfadeler | Ödev 1](week-3/odev.pdf)
+* [Palindrom İfadeler | Ödev 1](week-3/odev.pdf) - [Örnek Ödev](https://github.com/cagataycali/palindrome)
 
 *[Derslerde yazılan kodlar](https://github.com/sevketcakir/ds2017)*
 
