@@ -10,10 +10,12 @@
 * [Yığıtlar ve Kuyruklar](week-2/week-2.pdf)
 * [Bağlı Listeler](week-3/week-3.pdf)
 * [Ağaçlar](week-4/week-4.pdf)
+* [Dengeli Ağaçlar](week-5/week-5.pdf)
 
 *Ödevler*
 
 * [Palindrom İfadeler | Ödev 1](week-3/odev.pdf) - [Örnek Ödev](https://github.com/cagataycali/palindrome)
+* [Bağlı listeye sıralı ekleme | Ödev 2](week-4/odev.pdf)
 
 *[Derslerde yazılan kodlar](https://github.com/sevketcakir/ds2017)*
 
