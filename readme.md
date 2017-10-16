@@ -14,7 +14,12 @@
 
 *Ödevler*
 
-* [Palindrom İfadeler | Ödev 1](week-3/odev.pdf) - [Örnek Ödev](https://github.com/cagataycali/palindrome)
+* [Palindrom İfadeler | Ödev 1](week-3/odev.pdf)
+ > Örnek ödevler:
+
+ > [Çağatay ÇALI](https://github.com/cagataycali/palindrome)
+
+ > [Erdem OFLAZ](https://github.com/erdemoflaz/data-structure-palindrome)
 * [Bağlı listeye sıralı ekleme | Ödev 2](week-4/odev.pdf)
 
 *[Derslerde yazılan kodlar](https://github.com/sevketcakir/ds2017)*
