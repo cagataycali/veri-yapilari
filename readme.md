@@ -11,6 +11,8 @@
 * [Bağlı Listeler](week-3/week-3.pdf)
 * [Ağaçlar](week-4/week-4.pdf)
 * [Dengeli Ağaçlar](week-5/week-5.pdf)
+* [AVL Ağaçları](week-6/week-6.pdf)
+* [Heap, 2-3 ve B Ağaçları](week-7/week-7.pdf)
 
 *Ödevler*
 
