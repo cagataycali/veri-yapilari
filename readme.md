@@ -14,6 +14,22 @@
 * [AVL Ağaçları](week-6/week-6.pdf)
 * [Heap, 2-3 ve B Ağaçları](week-7/week-7.pdf)
 
+*Geçmiş Yılların Sınav Soruları*
+
+**Vize**
+
+* [2012 Vize Soruları](past-exam-questions/DataStructuresMidtermfall2012.pdf)
+* [2013 Vize Soruları](past-exam-questions/2013DataStructuresMidTermFall.docx)
+* [2014 Vize Soruları](past-exam-questions/DataStructuresMidtermfall2014.pdf)
+* [2015 Vize Soruları](past-exam-questions/DataStructuresMidtermfall2015.pdf)
+
+**Final**
+
+* [2012 Final Soruları](past-exam-questions/DataStructuresFinalfall2012.pdf)
+* [2013 Final Soruları](past-exam-questions/2013DataStructuresFinalFall.docx)
+* [2014 Final Soruları](past-exam-questions/DataStructuresFinallfall2014.pdf)
+* [2015 Final Soruları](past-exam-questions/DataStructuresFinallfall2015.pdf)
+
 *Ödevler*
 
 * [Palindrom İfadeler | Ödev 1](week-3/odev.pdf)
