@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html  dir="ltr" lang="tr" xml:lang="tr">
+<head>
+    <title>Pamukkale Üniversitesi Eğitim Destek Sistemi: Siteye giriş</title>
+    <link rel="shortcut icon" href="http://eds.pau.edu.tr/moodle/theme/image.php/sky_high/theme/1497855929/favicon" />
+    <meta name="description" content="Pamukkale Üniversitesi Eğitim Destek Sistemi" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Pamukkale Üniversitesi Eğitim Destek Sistemi: Siteye giriş" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"http:\/\/eds.pau.edu.tr\/moodle","sesskey":"sxyl8sP6fj","loadingicon":"http:\/\/eds.pau.edu.tr\/moodle\/theme\/image.php\/sky_high\/core\/1497855929\/i\/loading_small","themerev":"1497855929","slasharguments":1,"theme":"sky_high","jsrev":"1497855929","svgicons":true};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''};if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else me.path=component+'/'+component+'.'+me.type};
+YUI_config = {"debug":false,"base":"http:\/\/eds.pau.edu.tr\/moodle\/lib\/yuilib\/3.9.1\/build\/","comboBase":"http:\/\/eds.pau.edu.tr\/moodle\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"http:\/\/eds.pau.edu.tr\/moodle\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"http:\/\/eds.pau.edu.tr\/moodle\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"http:\/\/eds.pau.edu.tr\/moodle\/theme\/yui_combo.php?moodle\/1497855929\/","combine":true,"comboBase":"http:\/\/eds.pau.edu.tr\/moodle\/theme\/yui_combo.php?","ext":false,"root":"moodle\/1497855929\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"modules":{"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-formchangechecker":{"requires":["base","event-focus"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-formautosubmit":{"requires":["base","event-key"]},"moodle-core-actionmenu":{"requires":["base","event"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","event-key","dd-plugin"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-calendar-eventmanager":{"requires":["base","node","event-mouseenter","overlay","moodle-calendar-eventmanager-skin"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-block_navigation-navigation":{"requires":["base","io-base","node","event-synthetic","event-delegate","json-parse"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-notification"]},"moodle-editor_atto-editor":{"requires":["node","io","overlay","escape","moodle-core-notification"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-theme_bootstrapbase-bootstrap":{"requires":["node","selector-css3"]}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"http:\/\/eds.pau.edu.tr\/moodle\/lib\/javascript.php\/1497855929\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker"]}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+<link rel="stylesheet" type="text/css" href="http://eds.pau.edu.tr/moodle/theme/yui_combo.php?3.9.1/build/cssreset/cssreset-min.css&amp;3.9.1/build/cssfonts/cssfonts-min.css&amp;3.9.1/build/cssgrids/cssgrids-min.css&amp;3.9.1/build/cssbase/cssbase-min.css" /><script type="text/javascript" src="http://eds.pau.edu.tr/moodle/theme/yui_combo.php?3.9.1/build/simpleyui/simpleyui-min.js&amp;3.9.1/build/loader/loader-min.js"></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="http://eds.pau.edu.tr/moodle/theme/styles.php/sky_high/1497855929/all" />
+<script type="text/javascript" src="http://eds.pau.edu.tr/moodle/lib/javascript.php/1497855929/lib/javascript-static.js"></script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script>
+$(function(){
+var ders=$('.breadcrumb li:nth-child(5) a').html();
+var n=ders.split("_");
+$('.breadcrumb li:nth-child(5) a').html(n[0])
+$( "a:contains('"+ders+"')" ).html(n[0]);
+});
+</script><meta name="robots" content="noindex" /></head>
+<body id="page-login-index" class="format-site  path-login dir-ltr lang-tr yui-skin-sam yui3-skin-sam eds-pau-edu-tr--moodle pagelayout-login course-1 context-1 notloggedin content-only">
+<div class="skiplinks"><a class="skip" href="#maincontent">Ana içeriğe git</a></div>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+<div id="page">
+    <div id="wrapper" class="clearfix">
+
+<!-- START OF HEADER -->
+
+    <div id="page-header" class="clearfix">
+        <div id="page-header-wrapper">
+                            <img class="logo" src="http://eds.pau.edu.tr/assets/img/logo.png" alt="Custom logo here" /><h1 class="headerwlogo">- Pamukkale Üniversitesi Eğitim Destek Sistemi</h1>
+            
+            <div class="headermenu">
+                <div class="logininfo">Giriş yapmadınız.</div><div class="langmenu"><form method="get" action="http://eds.pau.edu.tr/moodle/login/index.php" id="single_select_f5a22a8e12024d1"><div><label for="single_select5a22a8e12024d2"><span class="accesshide " >Dil</span></label><select id="single_select5a22a8e12024d2" class="select autosubmit langmenu" name="lang"><option value="en">English (en)</option><option selected="selected" value="tr">Türkçe (tr)</option></select><noscript class="inline"><div><input type="submit" value="Git" /></div></noscript></div></form></div>            </div>
+        </div>
+    </div>
+
+<!-- END OF HEADER -->
+
+<!-- START OF CONTENT -->
+<div class="navbar clearfix">
+        <div class="breadcrumb"><span class="accesshide">Page path</span><ul role="navigation"><li><a href="http://eds.pau.edu.tr/moodle/">Ana Sayfa</a></li><li> <span class="accesshide " ><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">&#x25BA;</span> <span tabindex="0">Siteye giriş</span></li></ul></div>
+    <div class="navbutton"> </div>
+    </div>
+
+<div id="page-content-wrapper">
+    <div id="page-content">
+        <div id="region-main-box">
+            <div id="region-post-box">
+
+                <div id="region-main-wrap">
+                    <div id="region-main">
+                        <div class="region-content">
+                                                        <div role="main"><span id="maincontent"></span><div class="loginbox clearfix onecolumn">
+  <div class="loginpanel">
+    <h2>Giriş</h2>
+      <div class="subcontent loginsub">
+                <form action="http://eds.pau.edu.tr/moodle/login/index.php" method="post" id="login"  >
+          <div class="loginform">
+            <div class="form-label"><label for="username">Kullanıcıadı</label></div>
+            <div class="form-input">
+              <input type="text" name="username" id="username" size="15" value="" />
+            </div>
+            <div class="clearer"><!-- --></div>
+            <div class="form-label"><label for="password">Şifre</label></div>
+            <div class="form-input">
+              <input type="password" name="password" id="password" size="15" value=""  />
+              <input type="submit" id="loginbtn" value="Giriş" />
+            </div>
+          </div>
+            <div class="clearer"><!-- --></div>
+                            <div class="rememberpass">
+                  <input type="checkbox" name="rememberusername" id="rememberusername" value="1"  />
+                  <label for="rememberusername">Remember username</label>
+              </div>
+                        <div class="clearer"><!-- --></div>
+          <div class="forgetpass"><a href="forgot_password.php">Kullanıcı adı veya şifrenizi mi unuttunuz?</a></div>
+        </form>
+        <div class="desc">
+            Oturum desteği etkin olmalıdır<span class="helptooltip"><a href="http://eds.pau.edu.tr/moodle/help.php?component=moodle&amp;identifier=cookiesenabled&amp;lang=tr" title="Oturum desteği etkin olmalıdır Yardımı" aria-haspopup="true" target="_blank"><img src="http://eds.pau.edu.tr/moodle/theme/image.php/sky_high/core/1497855929/help" alt="Oturum desteği etkin olmalıdır Yardımı" class="iconhelp" /></a></span>        </div>
+      </div>
+
+      <div class="subcontent guestsub">
+        <div class="desc">
+          Bazı derslere konuk olarak erişebilirsiniz        </div>
+        <form action="index.php" method="post" id="guestlogin">
+          <div class="guestform">
+            <input type="hidden" name="username" value="guest" />
+            <input type="hidden" name="password" value="guest" />
+            <input type="submit" value="Konuk olarak giriş" />
+          </div>
+        </form>
+      </div>
+     </div>
+</div>
+</div>                                                    </div>
+                    </div>
+                </div>
+
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- END OF CONTENT -->
+
+</div>
+
+<!-- END OF WRAPPER -->
+
+<!-- START OF FOOTER -->
+        <div id="page-footer">
+
+<!-- START OF FOOTER-INNER -->
+
+        <div id="page-footer-inner">
+            <div class="footnote"><!-- There was no custom footnote set --></div>
+            <div class="logininfo">Giriş yapmadınız.</div>        </div>
+
+<!-- END OF FOOTER-INNER -->
+
+        <p class="helplink"></p>
+        <div class="homelink"><a href="http://eds.pau.edu.tr/moodle/">Ana Sayfa</a></div>        
+
+</div>
+
+<!-- END OF FOOTER -->
+
+</div>
+
+<!-- END OF PAGE -->
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Son de\u011fi\u015ftirme","name":"Ad","error":"Hata","info":"Bilgi","morehelp":"More help","loadinghelp":"Loading...","cancel":"\u0130ptal","yes":"Evet"},"repository":{"type":"Type","size":"Boyut","invalidjson":"Ge\u00e7ersiz JSON ifadesi","nofilesattached":"Dosya ili\u015fkilendirilmedi","filepicker":"File picker","logout":"\u00c7\u0131k\u0131\u015f","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Se\u00e7"},"block":{"addtodock":"Move this to the dock","undockitem":"Undock this item","dockblock":"Dock {$a} block","undockblock":"Undock {$a} block","undockall":"Undock all","hidedockpanel":"Hide the dock panel","hidepanel":"Hide panel"},"langconfig":{"thisdirectionvertical":"btt"},"admin":{"confirmation":"Onay"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+YUI().use('node', function(Y) {
+M.util.load_flowplayer();
+setTimeout("fix_column_widths()", 20);
+M.yui.galleryversion="2010.04.08-12-35";Y.use("moodle-core-dock-loader",function() {M.core.dock.loader.initLoader();
+});
+M.util.help_popups.setup(Y);
+M.yui.galleryversion="2010.04.08-12-35";Y.use("moodle-core-popuphelp",function() {M.core.init_popuphelp();
+});
+M.yui.galleryversion="2010.04.08-12-35";Y.use("moodle-core-formautosubmit",function() {M.core.init_formautosubmit({"selectid":"single_select5a22a8e12024d2","nothing":false});
+});
+
+});
+//]]>
+</script>
+</body>
+</html>

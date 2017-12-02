@@ -13,6 +13,8 @@
 * [Dengeli Ağaçlar](week-5/week-5.pdf)
 * [AVL Ağaçları](week-6/week-6.pdf)
 * [Heap, 2-3 ve B Ağaçları](week-7/week-7.pdf)
+* [Özetleme Fonksiyonları - Hashing](week-8/week-8.pdf)
+* [Çizge - Graph](week-9/week-9.pdf)
 
 *Geçmiş Yılların Sınav Soruları*
 
@@ -39,6 +41,7 @@
 
  > [Erdem OFLAZ](https://github.com/erdemoflaz/data-structure-palindrome)
 * [Bağlı listeye sıralı ekleme | Ödev 2](week-4/odev.pdf)
+* [Hashing | Ödev 3](week-9/odev.pdf)
 
 *[Derslerde yazılan kodlar](https://github.com/sevketcakir/ds2017)*
 
