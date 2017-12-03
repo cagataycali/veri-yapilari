@@ -1,173 +1,5721 @@
-<!DOCTYPE html>
-<html  dir="ltr" lang="tr" xml:lang="tr">
-<head>
-    <title>Pamukkale Üniversitesi Eğitim Destek Sistemi: Siteye giriş</title>
-    <link rel="shortcut icon" href="http://eds.pau.edu.tr/moodle/theme/image.php/sky_high/theme/1497855929/favicon" />
-    <meta name="description" content="Pamukkale Üniversitesi Eğitim Destek Sistemi" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="moodle, Pamukkale Üniversitesi Eğitim Destek Sistemi: Siteye giriş" />
-<script type="text/javascript">
-//<![CDATA[
-var M = {}; M.yui = {};
-M.pageloadstarttime = new Date();
-M.cfg = {"wwwroot":"http:\/\/eds.pau.edu.tr\/moodle","sesskey":"sxyl8sP6fj","loadingicon":"http:\/\/eds.pau.edu.tr\/moodle\/theme\/image.php\/sky_high\/core\/1497855929\/i\/loading_small","themerev":"1497855929","slasharguments":1,"theme":"sky_high","jsrev":"1497855929","svgicons":true};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
-var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''};if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else me.path=component+'/'+component+'.'+me.type};
-YUI_config = {"debug":false,"base":"http:\/\/eds.pau.edu.tr\/moodle\/lib\/yuilib\/3.9.1\/build\/","comboBase":"http:\/\/eds.pau.edu.tr\/moodle\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"http:\/\/eds.pau.edu.tr\/moodle\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"http:\/\/eds.pau.edu.tr\/moodle\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"http:\/\/eds.pau.edu.tr\/moodle\/theme\/yui_combo.php?moodle\/1497855929\/","combine":true,"comboBase":"http:\/\/eds.pau.edu.tr\/moodle\/theme\/yui_combo.php?","ext":false,"root":"moodle\/1497855929\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"modules":{"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-formchangechecker":{"requires":["base","event-focus"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-formautosubmit":{"requires":["base","event-key"]},"moodle-core-actionmenu":{"requires":["base","event"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","event-key","dd-plugin"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-calendar-eventmanager":{"requires":["base","node","event-mouseenter","overlay","moodle-calendar-eventmanager-skin"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-block_navigation-navigation":{"requires":["base","io-base","node","event-synthetic","event-delegate","json-parse"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-notification"]},"moodle-editor_atto-editor":{"requires":["node","io","overlay","escape","moodle-core-notification"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-theme_bootstrapbase-bootstrap":{"requires":["node","selector-css3"]}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"http:\/\/eds.pau.edu.tr\/moodle\/lib\/javascript.php\/1497855929\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker"]}}};
-M.yui.loader = {modules: {}};
-
-//]]>
-</script>
-<link rel="stylesheet" type="text/css" href="http://eds.pau.edu.tr/moodle/theme/yui_combo.php?3.9.1/build/cssreset/cssreset-min.css&amp;3.9.1/build/cssfonts/cssfonts-min.css&amp;3.9.1/build/cssgrids/cssgrids-min.css&amp;3.9.1/build/cssbase/cssbase-min.css" /><script type="text/javascript" src="http://eds.pau.edu.tr/moodle/theme/yui_combo.php?3.9.1/build/simpleyui/simpleyui-min.js&amp;3.9.1/build/loader/loader-min.js"></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="http://eds.pau.edu.tr/moodle/theme/styles.php/sky_high/1497855929/all" />
-<script type="text/javascript" src="http://eds.pau.edu.tr/moodle/lib/javascript.php/1497855929/lib/javascript-static.js"></script>
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-<script>
-$(function(){
-var ders=$('.breadcrumb li:nth-child(5) a').html();
-var n=ders.split("_");
-$('.breadcrumb li:nth-child(5) a').html(n[0])
-$( "a:contains('"+ders+"')" ).html(n[0]);
-});
-</script><meta name="robots" content="noindex" /></head>
-<body id="page-login-index" class="format-site  path-login dir-ltr lang-tr yui-skin-sam yui3-skin-sam eds-pau-edu-tr--moodle pagelayout-login course-1 context-1 notloggedin content-only">
-<div class="skiplinks"><a class="skip" href="#maincontent">Ana içeriğe git</a></div>
-<script type="text/javascript">
-//<![CDATA[
-document.body.className += ' jsenabled';
-//]]>
-</script>
-
-
-<div id="page">
-    <div id="wrapper" class="clearfix">
-
-<!-- START OF HEADER -->
-
-    <div id="page-header" class="clearfix">
-        <div id="page-header-wrapper">
-                            <img class="logo" src="http://eds.pau.edu.tr/assets/img/logo.png" alt="Custom logo here" /><h1 class="headerwlogo">- Pamukkale Üniversitesi Eğitim Destek Sistemi</h1>
-            
-            <div class="headermenu">
-                <div class="logininfo">Giriş yapmadınız.</div><div class="langmenu"><form method="get" action="http://eds.pau.edu.tr/moodle/login/index.php" id="single_select_f5a22a8e12024d1"><div><label for="single_select5a22a8e12024d2"><span class="accesshide " >Dil</span></label><select id="single_select5a22a8e12024d2" class="select autosubmit langmenu" name="lang"><option value="en">English (en)</option><option selected="selected" value="tr">Türkçe (tr)</option></select><noscript class="inline"><div><input type="submit" value="Git" /></div></noscript></div></form></div>            </div>
-        </div>
-    </div>
-
-<!-- END OF HEADER -->
-
-<!-- START OF CONTENT -->
-<div class="navbar clearfix">
-        <div class="breadcrumb"><span class="accesshide">Page path</span><ul role="navigation"><li><a href="http://eds.pau.edu.tr/moodle/">Ana Sayfa</a></li><li> <span class="accesshide " ><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">&#x25BA;</span> <span tabindex="0">Siteye giriş</span></li></ul></div>
-    <div class="navbutton"> </div>
-    </div>
-
-<div id="page-content-wrapper">
-    <div id="page-content">
-        <div id="region-main-box">
-            <div id="region-post-box">
-
-                <div id="region-main-wrap">
-                    <div id="region-main">
-                        <div class="region-content">
-                                                        <div role="main"><span id="maincontent"></span><div class="loginbox clearfix onecolumn">
-  <div class="loginpanel">
-    <h2>Giriş</h2>
-      <div class="subcontent loginsub">
-                <form action="http://eds.pau.edu.tr/moodle/login/index.php" method="post" id="login"  >
-          <div class="loginform">
-            <div class="form-label"><label for="username">Kullanıcıadı</label></div>
-            <div class="form-input">
-              <input type="text" name="username" id="username" size="15" value="" />
-            </div>
-            <div class="clearer"><!-- --></div>
-            <div class="form-label"><label for="password">Şifre</label></div>
-            <div class="form-input">
-              <input type="password" name="password" id="password" size="15" value=""  />
-              <input type="submit" id="loginbtn" value="Giriş" />
-            </div>
-          </div>
-            <div class="clearer"><!-- --></div>
-                            <div class="rememberpass">
-                  <input type="checkbox" name="rememberusername" id="rememberusername" value="1"  />
-                  <label for="rememberusername">Remember username</label>
-              </div>
-                        <div class="clearer"><!-- --></div>
-          <div class="forgetpass"><a href="forgot_password.php">Kullanıcı adı veya şifrenizi mi unuttunuz?</a></div>
-        </form>
-        <div class="desc">
-            Oturum desteği etkin olmalıdır<span class="helptooltip"><a href="http://eds.pau.edu.tr/moodle/help.php?component=moodle&amp;identifier=cookiesenabled&amp;lang=tr" title="Oturum desteği etkin olmalıdır Yardımı" aria-haspopup="true" target="_blank"><img src="http://eds.pau.edu.tr/moodle/theme/image.php/sky_high/core/1497855929/help" alt="Oturum desteği etkin olmalıdır Yardımı" class="iconhelp" /></a></span>        </div>
-      </div>
-
-      <div class="subcontent guestsub">
-        <div class="desc">
-          Bazı derslere konuk olarak erişebilirsiniz        </div>
-        <form action="index.php" method="post" id="guestlogin">
-          <div class="guestform">
-            <input type="hidden" name="username" value="guest" />
-            <input type="hidden" name="password" value="guest" />
-            <input type="submit" value="Konuk olarak giriş" />
-          </div>
-        </form>
-      </div>
-     </div>
-</div>
-</div>                                                    </div>
-                    </div>
-                </div>
-
-                
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- END OF CONTENT -->
-
-</div>
-
-<!-- END OF WRAPPER -->
-
-<!-- START OF FOOTER -->
-        <div id="page-footer">
-
-<!-- START OF FOOTER-INNER -->
-
-        <div id="page-footer-inner">
-            <div class="footnote"><!-- There was no custom footnote set --></div>
-            <div class="logininfo">Giriş yapmadınız.</div>        </div>
-
-<!-- END OF FOOTER-INNER -->
-
-        <p class="helplink"></p>
-        <div class="homelink"><a href="http://eds.pau.edu.tr/moodle/">Ana Sayfa</a></div>        
-
-</div>
-
-<!-- END OF FOOTER -->
-
-</div>
-
-<!-- END OF PAGE -->
-<script type="text/javascript">
-//<![CDATA[
-M.str = {"moodle":{"lastmodified":"Son de\u011fi\u015ftirme","name":"Ad","error":"Hata","info":"Bilgi","morehelp":"More help","loadinghelp":"Loading...","cancel":"\u0130ptal","yes":"Evet"},"repository":{"type":"Type","size":"Boyut","invalidjson":"Ge\u00e7ersiz JSON ifadesi","nofilesattached":"Dosya ili\u015fkilendirilmedi","filepicker":"File picker","logout":"\u00c7\u0131k\u0131\u015f","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Se\u00e7"},"block":{"addtodock":"Move this to the dock","undockitem":"Undock this item","dockblock":"Dock {$a} block","undockblock":"Undock {$a} block","undockall":"Undock all","hidedockpanel":"Hide the dock panel","hidepanel":"Hide panel"},"langconfig":{"thisdirectionvertical":"btt"},"admin":{"confirmation":"Onay"}};
-//]]>
-</script>
-<script type="text/javascript">
-//<![CDATA[
-YUI().use('node', function(Y) {
-M.util.load_flowplayer();
-setTimeout("fix_column_widths()", 20);
-M.yui.galleryversion="2010.04.08-12-35";Y.use("moodle-core-dock-loader",function() {M.core.dock.loader.initLoader();
-});
-M.util.help_popups.setup(Y);
-M.yui.galleryversion="2010.04.08-12-35";Y.use("moodle-core-popuphelp",function() {M.core.init_popuphelp();
-});
-M.yui.galleryversion="2010.04.08-12-35";Y.use("moodle-core-formautosubmit",function() {M.core.init_formautosubmit({"selectid":"single_select5a22a8e12024d2","nothing":false});
-});
-
-});
-//]]>
-</script>
-</body>
-</html>
+12-hour clock
+12-hour time format
+24-hour clock
+24-hour time format
+A4 letter
+A4 small
+abbreviate
+abbreviated
+abbreviation
+abnormal end(abend)
+abort
+abort action
+abort sequence
+aborted connection
+about
+Above
+ABS()
+absolute
+absolute address
+absolute device
+absolute positioned object
+absolute positioned paragraph
+absolute positioning
+absolute priority
+Absolute reference
+abstract
+acceleration
+accelerator card
+accelerator key
+accept
+Accept Revisions
+access
+access barred
+access code
+access control key
+access control list
+access control lock
+access list
+access lock
+access number
+access privileges
+access time
+accessory
+account file
+accounting
+accumulate
+accumulator
+accuracy
+acknowledge
+acknowledgement
+acoustic
+acoustic coupler
+acoustic coupling
+acquire
+acronym
+action
+action bar
+action bar pull-down
+action item
+action list
+action message
+action-object oriented
+activate
+activate a window
+ACTIVATE RULER(Keyname)
+activation
+activator
+active
+Active Button
+active file
+active line
+active link
+active page
+active program
+Active selection
+active window
+activity
+actual parameter
+actuator
+adapter
+adaptor
+ADB
+add
+add authority
+Add fonts
+Add Left Border
+Add printer driver
+Add queue driver
+Add Revision Marks
+Add Right Border
+Add To Dictionary
+Add to Template
+Added Features
+added value
+addend
+addenda dictionary
+Addition(re: math. function)
+additional features
+address
+address bus
+Address field
+Address labels
+address translation
+addressee
+addrout file
+adhoc(query)
+adjacent
+adjacent columns
+adjust
+administrator
+adopt
+adopted authority
+advance
+advanced
+advanced function printing
+advanced function printing data
+advanced printer function
+affinity user
+After
+after-image
+Afternoon format(re: time)
+Again/ repeat last action
+aggregate
+AIX(ADVANCED INTERACTIVE EXECUTIVE)
+alarm
+alarm clock
+alert
+Alert box
+algorithm
+alias
+align
+align center
+align graphic
+align left
+align middle
+align objects
+align right
+align to grid
+Aligned
+alignment
+Alignment icons
+all
+all authority
+All Caps
+All Drives
+All Local Drives
+all object authority
+all rights reserved
+all-points addressable
+allocate
+allocation unit
+allowable
+alphabetic
+Alphabetic numbers
+alphameric
+alphanumeric
+alphanumeric cursor
+Alphanumeric sort
+Alphanumeric sorting
+Alphanumeric/Numeric/Date
+already downloaded
+ALT
+Alt Graphics state
+Alt key
+Alt state
+Alt-key combinations
+Alter(to)
+alternate
+alternate character set
+alternate code page
+alternate collating sequencc
+alternate current
+alternating
+alternative
+alternative collating sequence
+alternative interfaces
+alternative set
+alternative shift
+Ampersand
+amplifier
+amplitude
+analog
+analog data
+analog signal
+analog transmission
+analog-to-digital converter(ADC)
+analysis
+analyzer
+anchor characters
+anchor point
+Animate(to)
+animation
+annotation
+Annotation mark
+Annotation mark number
+Annotation pane
+Annotation reference mark
+Annotation reference(Style)
+Annotation text(Style)
+ANSI
+ANSI character set
+ANSI characters
+answerback
+anticipatory buffering
+anticipatory paging
+anticlockwise
+antistatic
+Antonyms
+aperture
+API
+API(App. Programming Interface)
+APO(Absolute Positionned Objects)
+apostrophe
+APPC
+appearance
+append
+appendices
+appendix
+Apple desktop bus
+Apple events
+Apple Extended Keyboard
+Apple key
+Apple menu
+Apple Menu Items
+Applet
+AppleTalk
+AppleTalk Network System
+application
+application enabling
+Application icon
+Application INI file
+application integrity
+application object
+application operator
+application program
+application requester
+application server
+application software
+application space
+Application window
+apply
+Apply a style
+apply format(to)
+Applying a font
+applying styles
+APPN
+approximate
+approximate size
+Arabic
+arabic number
+arabic number format
+Arabic numerals
+Arabic page numbers
+arbitrary
+arc
+architecture
+archive
+area
+area chart
+area name
+area pattern
+argument
+arithmetic
+arithmetic expression
+arithmetic operation
+arithmetic operator
+arrange
+Arrange All
+Arranging Windows
+array
+arrival sequence access path
+arrow
+arrow head
+Arrow key
+article
+artificial
+artificial intelligence
+artwork
+As of last update
+as typed
+ascender
+ascending
+Ascending order
+ascent
+ascent line
+ASCII
+ASCII Files
+ASCII text file
+aspect ratio
+assemble
+assembler
+assembler statement
+assembly
+assembly language
+assign
+assign a level(outline)
+Assign Key to Style
+Assign Macro Name
+Assign to Key
+Assign to Menu
+assistance
+associate
+associated with ..
+association
+associative
+assume
+assumed value
+assurance
+Asterisk
+asterisk( )
+asymmetric
+asynchronous
+asynchronous execution
+asynchronous transmission
+At Column
+At line
+ATM
+atomic operation
+attach
+attachment
+attended operation
+attention
+attenuation
+attribute
+audible
+audible alarm
+audible signal
+audio
+audit
+audit window
+Australian Englis
+authentication
+Author
+authorities
+authority
+Authority Entry
+authorization list
+authorize
+authorized Apple dealer
+Auto
+auto adjust
+auto answer
+auto attribute
+auto call
+auto increment
+Auto link
+auto logon
+Auto Macros
+auto repaginate
+auto repeat
+Auto select
+Auto Update
+Auto update link
+auto(single) space icon
+auto-dim
+auto-dim interval
+Auto-feed
+Auto-numbered Reference
+Auto-scale
+AutoClose macro
+AutoDelete macro
+Autoexec Macro
+AutoExit macro
+automated teller machine
+automatic
+automatic bind(SQL)
+Automatic break
+Automatic Footnote
+Automatic footnote references
+automatic format
+automatic formatting
+automatic hyphenation
+automatic numbering
+automatic numbering fields
+automatic page break
+automatic page number
+automatic processes
+automatic ranging
+Automatic replacements
+automatic scrolling
+automatic single spacing
+Automatic Startup
+automatic style
+automatically
+automation
+AutoMerge macro
+AutoNew macro
+Autonumbered Fields
+Autonumbered Reference
+AutoOpen macro
+AutoPrint macro
+Autosave
+autosave backup file
+Autosave Frequency
+AutoSave macro
+Autosave Prompt
+Autosort
+AutoSort macro
+AutoStart macro
+AutoStyle macro
+auxiliary
+auxiliary storage
+availability notice
+available
+available allocation units
+available choice
+available memory
+average
+axes
+axis
+axis grid lines
+axis range
+axis title
+axis translation line
+babble
+back matter
+back space
+back up
+Back up copy
+Back up copy file
+back up frequency
+background
+background application
+background color
+background pagination
+background partition
+background printing
+background procedures
+Background processes
+Background Shading
+backing
+backlighted terminal
+backlog
+backout
+backslash
+BACKSPACE
+backspace key
+backtab
+backup
+backup copy
+Backup file
+backward
+backwards compatibility
+bad sector
+badge
+balance
+Balancing Columns
+Balloon Help
+band
+bandwidth
+Banner
+bar
+Bar Border
+bar chart
+bar code slot reader
+bar code wand
+barcode
+base
+base storage
+Base style
+baseband
+Based On
+baseline
+basic
+basic characters
+basic predicate(SQL)
+Basic Skills
+Basics(Help)
+batch
+batch file
+batch job
+batch printing
+batch processing
+battery
+battery pack
+baud
+baud rate
+beacon
+beacon frame
+beacon message
+beaconing station
+beaconing terminal
+beam
+beep
+Before
+before-image
+beginning/ending anchor
+bell
+Below
+belt
+benchmark(test)
+Beneath Text
+bias
+bidirectional
+bidirectional printing
+bidirectional support
+bin
+bin feed
+Bin Selection
+binaries
+binary
+binary code
+Binary control Characters
+binary digit
+Binary File Format
+binary sort
+binary system
+bind
+binding
+binding documents
+binding margins
+Biographical Note
+bionics
+bipolar
+bistable
+bit
+bit map
+bit map display
+bit-map graphics
+bit-mapped display
+Bitmap
+bitmap
+bitmap printing
+bitmapped
+bitmapped character
+bitmapped display
+bitmapped font
+bitmapped images
+bitmapped picture file
+bits per character
+bits per second(bps)
+black
+Black-and-white
+blank
+blank character
+blank disk
+Blank Document
+blank form
+blank line
+blank space
+Blank window
+blanket
+blind
+blink
+Blink rate
+blink rate
+blinking
+Blinking bar
+blinking square
+block
+block copy
+block delete
+block move
+Block Paragraphs
+block quotation
+block selection
+BlockBody
+blue
+board
+body
+body text
+boilerplate text
+Bold
+boldface
+Boldface type
+bond
+book packaging(AS/400)
+bookmark
+Bookmark Name
+Bookmark reference
+bookmarked area
+Boolean
+boolean operator
+boolean(instructions)
+boot
+boot device
+boot disk
+boot process
+Boot(to)
+booting
+bootstrap
+border
+Border Guide
+border line
+border type
+border weight
+Border width
+bottom
+bottom margin
+Bottom of Page
+Bottom of the Screen
+Bottom(Footer)
+bottom-up
+bottom-up programming
+bounce
+bound
+boundaries
+boundary
+bowl
+box
+boxed paragraph
+bps(bits per second)
+braces
+bracket
+branch
+BREAK
+break
+Breaking link
+breakpoint
+bridge
+brightness
+brightness control
+bring to front
+British English
+broadband
+broadcast
+broken word
+browse
+browse up or down
+brush
+bubble board
+bubble memory
+bubble sort
+bucket
+buffer
+buffer cache
+buffer(proje yönetimi)
+buffering
+bug
+built-in
+Built-in dictionary
+builtin
+Bulgarian
+bulk
+bullet key
+Bullet tool
+Bullet(ALT+0149)
+Bulleted list
+Bulleted List Item
+bulleted paragraph
+burned-in image
+burst
+burst mode
+burster
+bus
+bus mouse
+business case
+Business Graphics Utility
+Business Partner
+busy
+button
+Button face
+By default
+bypass
+byte
+bytes free
+cabinet
+cable
+cache
+cache buffer
+caching
+CAD(Computer Aided Design)
+calculate
+calculation
+Calculator
+calendar
+call
+calling macro
+CAM(Computer Aided Manufacturing)
+Canadian French
+cancel
+Cancel Button
+Canceled
+canned text
+Cannot find
+capability
+capacity
+capital letters
+capitalization
+capitalized letter
+Capitals
+Caps Lock
+Caps Lock key
+caps(capital letters)
+Capslock
+capstan
+caption
+capture
+carbon copy
+carbon copy list
+card
+Cardinal form(re: numbers)
+cardinality violation(SQL)
+Cardtext(re: format switches)
+caret
+carriage
+carriage return
+carrier
+carrier return
+carry
+carry out a command
+Carry out an action
+cartridge
+cartridge tape unit
+cascade
+cascading
+cascading pull-down
+Case conversion
+case of letters
+case sensitive
+case(letter)
+cash
+cash on delivery(COD)
+cashier
+cassette
+catalog
+catalogue
+category
+cathode ray tube
+CD
+CD-ROM
+CD-ROM driver
+CD-ROM-Player
+cell
+Cell contents
+Cell mark
+cell model
+cell protection
+cell range
+Cell shading
+cell(spreadsheet)
+center
+center alignment
+Centered
+Centered Paragraph
+centering
+centimeters
+central
+central processing unit
+CFM
+chained file
+chained list
+change
+change authority
+change bar
+Change Selection
+change the case of letters
+change then find
+Change To
+channel
+channel-attached
+channel-attached station
+chapter
+chapter heading
+character
+character box
+character cell
+character codes
+character constant
+character emphasis
+character field
+character font
+character format
+character formatting
+Character formatting keys
+character grid
+character grid unit
+character key
+character printer
+character set
+character spacing(= kerning)
+character string
+character style
+character variable
+characteristic
+characters per inch
+charformat(re: format switches)
+chart
+chart area
+chart format
+chart layout
+chart utility
+Charting Embedder(WinGraph)
+chassis
+check
+check bit
+check box
+check digit
+check in(OfficeVision)
+check mark
+check out(OfficeVision)
+Check Spelling
+checkbox
+checkpoint
+checksum
+child element
+Chinese
+chip
+choice
+choose
+chooser
+Choosing Commands
+cipher
+circle
+circuit
+circuit switching
+Circular reference
+clamp
+clause
+clean up
+clean up a document
+clear
+Clear All
+Clear Key
+clear session
+clear tab stops
+clearance
+click
+client
+client area
+client/server
+clip
+Clipart
+clipboard
+clipboard contents
+Clipboard window
+clipping
+clock
+clock cycle
+clock frequency
+clocking
+clockwise
+close
+Close a window split
+close box
+Close drive
+CLOSE SPACE(CTRL+E / Keyname)
+close(an application)
+Close(Control Menu)
+CLOSE(Keyname)
+closed spacing
+closedown
+CloseView
+closing character
+closing parenthesis
+closure line
+cluster
+co-resident
+coated
+coaxial
+code
+code page
+code page switching
+code point
+coded font
+coefficient
+coil
+coincidence
+Col(re: status bar abbr.)
+cold start
+collapse(to)
+collapsing an outline
+collate
+collating sequence
+collision
+collision detect
+collision detection
+colon alignment tab
+color
+color formatting
+color graphics
+color graphics adapter
+color map
+color palette
+color wheel
+column
+column balancing
+column boundaries
+column break
+Column break symbol
+column heading
+column marker
+column numbering
+Column of text
+Column Selection
+Column Width
+combination
+combination form
+combination key
+combine(to)
+combined
+Combo box
+comma
+comma alignment tab
+Comma Delimited
+command
+Command area
+command button
+command check
+command interpreter
+Command key
+command line
+Command menu
+Command name
+command prompt
+command sequence
+comment
+commit
+commit point(SQL)
+commitment control(SQL)
+common
+common action
+Common Programming Interface
+Common User Access
+common user identification
+communication
+communications manager
+Communications port
+communications setup
+compact disc
+compact list
+compact system
+compact(Mac)
+compaction
+compare
+Compare File Name
+Compare Versions
+compatibility
+compatible
+compile
+compiler
+complement
+complete
+completion
+complex
+complex number
+component
+composed
+composite
+composite bar chart
+composite editor
+composite key
+composition
+compound document commands
+Compound Document Creation
+Compound Document Support
+compound documents
+Compound expressions
+compress
+compressed file
+Compressed print
+compressed text
+compression
+compromise
+compute
+computer
+computer center
+computer conferencing
+computer crime
+computer science
+computerization
+computerize
+computerized numerical control
+computerized office
+concatenate
+concatenated field
+Concatenated terms
+concentration
+conceptual
+concrete
+concurrency(SQL)
+concurrent
+condense
+condensed
+condition
+conditional codes
+Conditional instruction
+conduit
+confidential
+configuration
+configurator
+configure
+confirm
+Confirm Changes
+confirmation
+Conflicting
+congestion
+conjunction
+connect
+connection
+connectivity
+connector
+consecutive
+consistency
+console
+constant
+constrain
+constraint
+construct
+constructing
+Cont. Notice
+Cont. Separator
+contact
+container
+contamination
+content
+contention
+contents
+Contents entry
+context
+context sensitive
+Context Sensitive Help
+contextual help
+contiguous
+continuation
+Continuation character
+continue
+continuous
+continuous feed
+continuous paper
+continuous section breaks
+continuous(printer)
+continuous-feed(printer)
+contractor
+contrast
+contrast control
+control
+control ball
+control character
+control codes
+Control key
+control panel
+controller
+convention
+conventional keyboard
+conventional memory
+conventional system
+convergence
+conversational
+conversion
+conversion process
+Conversion string
+convert
+Convert Table To
+Convert(File) From/To
+converter
+Converter file
+convex
+conveying
+cooperative processing
+coordinate
+coordination
+coordinator
+coprocessor
+copy
+Copy area
+Copy List
+copy operation
+copy protected
+copy protection
+Copy soft fonts to
+COPY TO(Keyname)
+CopyFormat macro
+CopyList
+copyright
+core
+corequisite
+corner
+Corner Handles
+correct
+correction
+corrective maintenance
+correlated reference(SQL)
+correlation name(SQL)
+correspondence
+corresponding
+corruption
+cost-effective
+count
+Count By
+counter
+counting words
+country
+Country Settings(System menu)
+coupler
+coupling
+cover page
+cradle
+create
+create directory
+creation date
+criteria
+critical
+critical path
+Croatian
+crop marks
+cropping
+cross
+cross reference listing
+cross-domain
+cross-reference
+crossfire
+crosshair
+crosstalk
+CRT(cathode-ray-tube)
+cryptanalist
+cryptographic
+cryptography
+Ctrl key
+CUA
+CUA architecture
+cue
+cumulative
+cumulative summary
+curl
+currency
+Currency number format
+currency symbol
+current
+current date
+current directory
+current document
+current drive
+current font
+Current Keys
+current library
+current line
+current release
+current result
+current selection
+current time
+cursor
+Cursor Blink(Slow/Fast)
+cursor control keys
+cursor down key
+cursor left key
+Cursor location
+cursor movement key
+cursor right key
+cursor up key
+cursor-dependent scrolling
+cursor-independent scrolling
+curve
+cushion
+custom
+Custom dialog boxes
+custom dictionary
+custom icons
+custom return address
+Custom-made command
+customer
+customer engineer
+customer setup
+Customizable
+Customizable Toolbar
+Customization interface
+Customization tool
+customize
+customized
+customized dictionary
+cut
+cut and paste
+cut form
+cut sheet
+cut sheet feeder
+cutoff
+Cyan
+cybernetics
+cycle
+cycle stealing
+cyclic
+cyclic redundancy check
+cylinder
+Cypriote
+Czech
+daily
+daisy wheel printer
+daisy-chain
+damage
+Danish
+DASD
+DASD mirroring
+dash
+dashed line
+data
+Data access
+data bank
+data base
+data bits
+Data bookmark
+Data buffer
+data bus
+data collection terminal
+data dictionary
+Data dispenser
+data document
+data entry
+data file
+Data File Utility(DFU)
+data fork
+Data Handler
+data header record
+data integrity
+data interchange format
+data label
+data line
+data link
+data processing
+Data protection
+data receiver
+data record
+Data Reference
+data reference line
+data sink
+Data text
+Data type
+data value
+data-only document
+data-only file
+data/header file
+data/text merge
+database
+database integrity
+Datafile
+Datasheet
+date
+date action completed
+date action due
+Date Created
+Date format
+Date icon
+date of printing
+Date Saved
+Date-time picture
+Date-time result
+day
+DDE(Dynamic Data Exchange)
+deactivate
+dead key
+deadline
+deadlock
+Dealer
+deallocate
+deblock
+debug
+debugger
+debugging
+DEC NAS Support
+decentralized
+decimal
+decimal aligned
+decimal alignment
+decimal character
+decimal place
+decimal point
+decimal tabs
+Decimal tabstop
+Decimal value
+decipher
+decision
+decisional database
+deck
+declaratives
+declare
+decode
+decompile
+decompress
+decompression
+Decrease the point size
+Decrease(to)
+decrement
+decrypt
+dedicate
+dedicated(line)
+default
+default action
+default border
+default directory
+default display
+default drive
+default extension
+default file name extension
+default font
+default format
+Default installation
+Default option
+default path
+Default picture file
+default printer
+default search
+default settings
+Default Tab Stops
+default tab width
+default value
+defer
+define
+definite
+definition list
+Definitions
+deflection
+deflector
+degradation
+Del key
+delay
+delegate
+delete
+delete authority
+Delete Borders
+Delete font
+Delete key
+Delete printer driver
+Delete queue driver
+Deletion mark
+delimited identifier(SQL)
+delimiter
+Delimiter character
+delivery
+demo
+demodulate
+demonstration
+demote one level
+Demote(to)
+demoting a heading level
+demount
+Denominator(re: fractions)
+density
+dependent
+dependent query
+dependent value
+desactivate(to)
+descender
+descending
+Descending order
+descent
+descent line
+description
+Description box
+deselect
+design
+Designation
+desk
+Desk Accessories
+desktop
+Desktop Manager
+desktop Pattern
+destination
+destructive
+detached
+detail
+detail report
+detectable
+determinant
+determination
+developer
+device
+device driver
+Device driver file
+device independence
+device independent
+device token
+diablo printer
+diacritic
+diacritical mark
+diagnose
+diagnosis
+diagnostic message
+diagonal
+diagonal two-headed arrow
+diagram
+dial
+dial tone
+dial-up terminal
+dialed line
+dialog box
+Dialog Box Option
+Dialog Editor
+Dialogs
+dictionary
+dictionary file
+Dictionary-style
+DIF files
+digit
+digit placeholder
+digital
+digitize
+digitizer
+dim
+dimension
+dimmed
+dimmed command
+dimmed icon
+dimmer switch
+diode
+direct
+direct access
+direct formatting
+direct manipulation
+direct slot
+direct user
+directed
+direction
+Direction keys
+director
+directory
+directory browser
+directory listing
+directory location
+directory tree
+disable
+Disable smart quotes
+disabled
+Disabled actions
+disassemble
+disaster
+discard
+disconnect
+discrete
+discrimination
+disk
+disk drive
+Disk error
+disk file
+Disk full
+Disk name
+Disk Operating System
+disk server
+Disk space
+disk storage
+disk volume
+diskette
+diskette slot
+diskette system
+diskette-only system
+dispatch
+dispersant
+displace(to)
+displacement
+display
+Display as Printed
+display card
+display device
+display driver(adaptater)
+Display file
+Display hidden text
+display memory
+display monitor
+Display of Word Objects Word
+display point
+display result
+display screen
+display station
+display workstation
+disposition
+Distance from Edge
+Distance From Text
+distortion
+distribute
+distributed data processing
+distributed processing
+distributed system
+distribution list
+dither
+divide
+dividend
+division
+Division line(re: fractions)
+Division mark
+divisor
+DLL(Dynamic Link Library)
+DO FIELD CLICK(Keyname)
+document
+document authority
+Document Contents Architecture
+Document Control Menu
+Document Conversions
+Document dictionary
+Document drive
+Document file
+document format
+document library
+document management
+Document mode
+Document name
+document of understanding(DOU)
+Document pane
+document retrieval
+Document screen
+Document Statistics
+Document style
+document template
+document template file
+Document view
+Document window
+documentation
+DoFieldClick macro
+Dollartext(re: format switches)
+domain
+done
+dormant state
+DOS
+DOS partition
+dos prompt
+dot
+Dot matrix printer
+dot pitch
+dots per inch
+dotted border
+dotted line
+dotted outine box
+Dotted Underline
+double
+double click
+double close quote
+double open quote
+double precision
+double sided DISKETTE
+double space
+double spacing lines
+double underline
+double-byte character SET(DBCS)
+double-byte coded FONT
+double-density disk
+Double-sided disk
+Double-sided disk drive
+Double-sided pages
+Double-sided printing
+Double-spacing
+Double-underline
+doubleword
+down
+Down
+down arrow
+down arrow icon
+Down Arrow Key
+down key
+Down scroll arrow
+down time
+downline
+download
+Download each job
+downloadable fonts
+downsizing
+downstream
+downstream load
+draft
+draft copy
+Draft document
+draft mode
+draft printing
+draft quality
+draft view
+drag
+drag and drop
+drag select
+dragging
+draw(to)
+drawer
+drawing character
+Drawing Ruler
+drift
+drive
+Drive designator or indicator
+drive letter
+driver
+Drop
+drop cable
+Drop embed
+Drop Messages
+Drop point
+drop-down list
+drop-down list box
+dual
+Dual Floppy System
+dual processor
+due date
+dumb terminal
+dummy
+dummy device
+dump
+duplex
+duplicate
+duplication
+duplicator
+duration
+Dutch
+dyadic operator
+dynamic
+dynamic address translation
+dynamic bind(SQL)
+Dynamic Data Exchange
+Dynamic Data Exchange(DDE)
+dynamic linking
+dynamic priority
+dynamic programming
+dynamic resource allocation
+dynamic SQL
+dynamic storage allocation
+early token release
+Easy Access
+echo
+edge
+edit
+Edit control
+editable
+editing techniques
+edition
+editor
+effective
+effective address
+efficiency
+EGA(Enhanced Graphics Adapter)
+eject
+elapse time
+electronic filing
+electronic mail
+element
+eligible
+ellipsis
+ELSE instruction
+em-dash(ALT+0150)
+embed
+embedded object
+embedded SQL statement
+Embedder
+Embedder INI-file
+Embedding architecture
+Embedding Server
+Embedding server application
+emergency
+emission
+emit
+emphasis
+emphasizing Text
+empty
+emulate
+emulation
+emulation program
+en-dash(ALT+0151)
+enable
+enabled
+encapsulation
+enclose
+Enclosures
+encode
+encrypt
+End
+end key
+End mark
+end of address
+End of Document
+End of Page
+End of row mark
+end user
+End-of-cell character
+End-of-paragraph mark
+EndIf instruction
+Endmark
+energy
+engineering change
+engineering design
+engineering release
+English
+enhance
+enhanced
+Enhanced Color Display
+Enhanced Graphics Adapter
+Enhanced Graphics Adapter(EGA)
+Enhanced Graphics Adaptor
+enhanced keyboard
+enhanced mode
+enlarge
+enqueue
+enter
+Enter complete pathname of file
+Enter key
+enterprise
+Enterprise Systems Connection
+entity
+entry
+entry point
+Entry(in a table)
+Entry-text(re: XE fields)
+envelope
+Envelope creation
+Envelope feeder
+Envelope styles
+Envelope template
+enveloping
+environment
+environment variable
+epilogue
+EPROM
+Equal sign
+Equal(re: math function)
+equalization
+equation
+Equation Editor
+Equation Editor Embedder(MathType)
+equipment
+equivalent
+erasable programmable read-only
+erase
+erase head
+eraser
+erasing backspace
+erasing head
+ergonomics
+error
+Error handler options
+Error handling
+error log
+Error Messages
+Error recovering
+error recovery
+Error trapping
+Errors
+ESA(Enterprise System Architecture)
+Esc key
+escape
+escape character
+Escape Key
+escape sequence
+escaping key
+ESCON
+ethernet bridge
+EtherTalk
+even
+Even number
+event
+everyone
+evoke
+example
+exception
+exception handling
+exception message
+exchange
+exclude authority
+exclusion
+exclusive lock(SQL)
+Exec
+EXEC procedure
+Executable
+executable file
+executable program
+executable segment
+executable statement
+execute
+Execute Only Flag
+execution time
+Executive
+executive information system
+executive program
+ExecutiveR
+exercise
+Existing
+exit
+expand
+expand selection
+expanded
+Expanded By
+expanded character spacing
+expanded memory
+Expanded Memory Board
+Expanding and contracting highli
+expansion board
+expansion card
+expansion gate feature
+expansion option
+expansion slot
+expansion unit
+expert system
+expiration date
+explicit
+explicit selection
+exploded pie
+exponent
+exponential
+export
+exporting text to other programs
+exposed name(SQL)
+expression
+expression(mat)
+EXT(re: status bar abbr.)
+extend
+Extend mode
+extend selection
+Extend selection mode
+extended character set
+extended characters
+extended dos partition
+Extended Edition(EE)
+extended graphic character set
+extended help
+extended keyboard
+extended memory
+extended networking
+extended selection
+extension
+extent
+external
+external file
+external function
+external graphics file
+external modem
+external option
+external storage
+externally described data
+externally described file
+Extra Side Margin
+extract
+extreme
+fabric ribbon
+face plate
+facility
+Facing pages
+facsimile machine
+factor
+fail
+failsafe operation
+failure
+false
+fanfold paper
+Far-left
+fast
+fast path key
+Fast Save
+Fast-page-mode
+fatal error
+fatbits
+fault
+fault tolerance
+fault tolerant
+favored
+fax
+fax adapter
+fax board
+FDHD
+feasibility
+feasibility study
+feature
+feature code
+Features
+feed
+Feed slot
+feed tract
+feedback
+feeder
+fence
+fetch
+fiber optic
+fidelity
+field
+Field & Macro Translation
+field characters
+field code
+field contents
+field engineering
+field installable
+Field keys
+Field label
+field level help
+Field mark
+field name
+Field number
+field refreshing
+Field Specific Switch
+Field switch
+field syntax
+Field Type Name
+field value
+Fields in Word Objects
+Figure
+Figure Caption
+File
+file
+file allocation table
+file cabinet
+file control block(FCB)
+File editor
+file extension
+file format
+file handle
+file handling keys
+File interchange format
+file maintenance
+File Manager
+File Name
+file name extension
+File name pattern
+File naming
+file protection ring
+File server
+file server
+File Sharing
+File type
+Filename
+fill
+fill character
+fill down
+fill pattern
+fill right
+fill-in box
+fill-in field
+fill-in(a form)
+Filled-in Information
+fillet
+film
+filter
+filter(DOS)
+final
+final copy
+final form text
+finance communications
+find
+Finder
+fine-grain
+finite element analysis
+Finnish
+firmware
+Firstcap(re: format switches)
+fit
+fit to page
+fix
+fix level
+fixed
+fixed currency symbol
+fixed disk
+fixed point
+fixed spaced font
+Fixed system font
+fixed-height character
+Fixed-pitch printer
+Fixed-positioned oject
+Fixed-size space
+flag
+flash
+flat file
+Flemish
+flexible
+Flexible disk
+flicker
+flip
+flip-flop
+floating
+floating currency symbol
+floating point represntation
+floating zero
+floating-point constant
+floating-point format
+floating-point unit
+Floppy
+floppy disk
+Floppy disk drive
+flow
+Flow chart
+flowchart
+flowing text
+fluid
+Flush left
+Flush Right
+flush right/left
+flush(to)
+fold
+Folder
+folding
+folding ratio
+Folio
+folio page number
+Font
+Font Assignment Table
+font cartridge
+Font file
+Font mapping
+font name
+font selection
+Font set
+font size
+footer
+footing
+footnote
+Footnote Pane
+Footnote reference
+Footnote Reference Mark
+Footnote reference number
+Footnote Separator
+footnote text
+footprint
+For...Next loop
+forbidden
+force
+force start
+forced completion
+forecast
+foreground
+foreground partition
+foreign
+foreign caracters
+form
+form alignment
+form document
+form factor
+form feed
+form letter
+form separator
+format
+Format name
+formatted
+formatted page
+formatting attribute
+Formatting instruction
+Formatting Tools
+Formatting(disk)
+formula
+Formula code
+Formula Reference
+forward
+Four headed Arrow
+fraction
+fractional digit
+fragment
+fragmentation
+frame
+Frame indicator
+Frame Position
+frame positioning
+frame relay
+frame sizing
+frame(communication)
+framework
+free
+Free field delimitor
+free memory
+Free Space
+Freehand line
+Freehand shape
+Freehand shape tool
+freeze(to)
+French
+French/French-Canadian
+frequency
+friction
+From / To
+From Left
+From Right
+From Template
+front end
+front end computer
+front end processor
+front matter
+full
+full duplex
+full duplex communication
+Full duplex modem
+Full justification
+Full menus
+full path
+full pathname
+full resolution
+Full Save
+full screen
+full screen application
+full screen editing
+full screen mode
+full select(SQL)
+Full variant
+full-duplex
+full-size
+fullword
+fullword binary
+function
+function check
+function key
+function(al)
+functional diagram
+functionality
+fuse
+Gallery
+Galley View
+game port
+Gamma Table
+gap
+Garbage
+gate
+gateway
+gather
+GCR
+general
+general availability
+General Switch
+general-purpose library
+generate
+generated text
+generation
+generator
+generic
+Generic font name
+generic search
+German
+get
+Get Info
+Get Privileges
+ghost line
+Gigabyte
+global
+global backup
+global file name character
+global macro
+Global Macros and Glossaries
+global replace
+global search
+global symbol
+glossary
+glossary entry
+glossary item
+glossary keyword
+glossary list
+Glossary Name
+GO BACK(Keyname)
+Go To
+go-ahead
+gold
+goto
+grab(to)
+gradation
+grade
+grade level
+Grammar
+Grammar Checker
+graph
+graphic
+graphic character
+graphic images
+Graphic object
+Graphical interface
+graphics
+graphics capable
+graphics capable workstation
+Graphics Conversions
+graphics data file(GDF)
+graphics data format(GDF) file
+graphics hierarchy
+Graphics mode
+graphics primitive
+Graphics resolution
+graphics segment
+graphics symbol set
+graphics text
+graphics window
+graphics workstation
+gray
+gray / grayed(for a command)
+gray level
+Gray scale
+Gray shading
+gray(to)
+gray-scale image
+graying
+Greater than or equal to
+Greater than
+Greek
+Green
+grid
+Gridlines
+gridlock
+gross
+grounding
+Group
+Grow Selection
+guest
+guest file system
+guest machine
+GUI Setup
+GUI Word Processing
+GUI(Graphical User Interface)
+guidance
+guide
+guideline
+gutter
+gutter margin
+Hair cross
+half adjust
+half-duplex
+half-justify
+halfword
+halt
+handle
+handling
+handset
+handshake
+Handshake options
+handshaking
+Handwriting Support
+hanging indent
+Hanging indentation
+hard card
+hard column break
+hard copy
+hard copy reference
+hard disk
+hard hyphen
+hard page break
+hard sector
+hard sectored
+hard space
+hard stop
+hardware
+hardware character
+hardware check
+hardware requirements
+hardwired
+hash total
+HD Backup
+HD SC Setup
+head
+head crash
+Head Length
+Head Style
+head switching
+Head Width
+header
+header label
+Header Paragraph
+header record
+Header/footer pane
+heading
+Heading 1 - 9(style)
+heading letter
+Heading level
+Heading level style
+Heading paragraph
+Heading Separator
+Heading style(s)
+Headphone
+headphone jack
+heap
+heat
+heat fixing
+Hebrew
+height
+height control
+Help
+help desk
+help desk operator
+help for HELP
+help function
+help index
+help information
+help level
+Help menu
+help screen
+help text
+heterogeneous computer network
+hex
+hexadecimal
+Hi-Lo Lines
+hidden
+hidden file
+hidden text
+Hide
+Hide Boundaries
+Hide clipboard
+Hide Footer
+Hide Header
+Hide Page Breaks
+Hide Ruler
+Hide Ruler Lines
+Hide Rulers
+Hide Size
+Hide Tab Ruler
+Hide User Log
+hierarchical
+hierarchical database
+Hierarchical file system
+hierarchy
+high
+high contention
+high density floppy disk
+High Performance File System
+high resolution
+High-Density
+high-density disk
+high-level language
+High-resolution graphics
+highlight an Icon
+highlight box
+highlight(to)
+highlighted
+highlighting
+highway
+Hindi
+hint
+history file
+history log
+hit ratio
+hold
+hold down
+hole
+Home directory
+Home key
+home position
+homogeneous computer network
+hop count
+hopper
+horizontal
+Horizontal binding
+horizontal merge
+Horizontal Right Arrow
+Horizontal scroll
+Horizontal Scroll Bar
+Horizontal Scrolling
+Horizontal split
+Horizontal Two-headed Arrow
+Horizontal-feed
+Horizontally
+host computer
+host language(SQL)
+host system
+hot key
+hot key sequence
+Hot Link
+Hot Zone
+hotline
+Hour Glass
+hourglass pointer
+housekeeping
+How to use the Font/Desk Acessory
+hue
+human factors
+human-perceivable form
+Hungarian
+hybrid computer
+hypertext
+hyphen
+hyphen drop
+Hyphen icon
+hyphenate
+Hyphenate at
+Hyphenate Caps
+hyphenation
+Hyphenation file
+Hyphenation Hot Zone
+Hyphenation point
+hyphenation zone
+I frame
+I-beam
+I-Beam pointer
+I/O
+IBM logo program
+IBM PC
+Icelandic
+icon
+icon bar
+Icon Bar Mode
+Icon letter
+iconize(to)
+ID number
+identical
+identification(id)
+identifier
+identity
+ideogram
+idle
+idle character
+idle line
+Idle loop
+IF
+ignore
+ignored
+illegal
+illuminated text
+image
+image processing
+image symbol set
+ImageWriter
+imaginary
+imaginary line
+imaginary number
+immediate data
+impact
+impact printer
+impedance
+imperative
+implement(to)
+implementation
+implicit
+implicit selection
+implied
+import
+important
+improved
+impulse
+In
+In System file
+In use light
+in-basket
+In...file
+inactive
+inactive line
+inactive link
+inactive node
+inactive page
+inactive program
+inactive record
+inactive state
+inactive window
+inbound
+inch
+incident
+incident record
+include
+Inclusive
+incoming
+Increase
+Increase the point size
+increment
+incremental backup
+indent
+Indent First Line
+indent graphic
+Indent Marker
+Indent position
+Indent Rows
+indentation
+indentation marker
+indentations
+Indented
+Indented List
+indented paragraph
+independent
+index
+index entry
+Index Entry codes
+index file
+index heading
+index of Help topics
+index on field
+indexed file
+indexed sequential access
+indexed sequential file
+indexed sequential method
+indexing
+indicate
+indicator
+indirect
+indirect user
+indoor
+induction coil
+industry
+inference
+infinite
+Info
+informatics
+information
+Information about
+information frame
+Information interchange
+information message
+information service
+information technology
+information warehouse framework
+information window
+informational database
+Informative message
+infrared
+inherent
+inhibit
+initial
+Initial Col Width
+Initial settings file
+Initialization failed!
+Initialization failure
+initialization file( .INI)
+initialization segment
+initialize
+Initialize this disk?
+initialized disk
+Initializing disk
+initials
+initiate
+ink jet printer
+inoperable
+inoperable time
+input
+Input device
+input file
+input inhibited time
+input/output
+inquiry
+Ins key
+Insert
+Insert disk to be initialized
+Insert Disk:
+insert mode
+Insert Page Break
+Insert ruler
+INSERT/OVERTYPE(Keyname)
+insertion point
+inset
+Inside
+Inside Margin
+Install
+Install button
+installation
+Installation Disk
+installation diskette
+Installation Menu
+Installer
+instruction
+Instruction set
+instrument
+Insufficient memory
+insulation
+integer
+integrate
+integrated
+integrated circuit
+integrated database
+integrated modem
+integrated software
+integration test
+integrity
+intelligence
+intelligent terminal
+intensity
+intent
+Inter Application Communication
+interaction
+interactive
+Interactive Data Def. Utility(IDDU)
+intercept
+intercepted
+interchange
+interface
+interference
+interleave
+interlock
+intermediate
+internal
+internal drive
+Internal Floppy Drive
+Internal space
+international alliance
+Internationalization
+interoperability
+interpret
+interpreter
+interprocess
+interrecord
+interrogating
+interrupt
+interrupt handler
+interrupt switch
+interruption
+intersection
+intersystem
+intersystem communication
+interval
+intervention
+intervention required check
+intrasystem
+intrasystem communication
+intrinsic
+intrinsic function
+Introduction
+invalid
+Invalidate
+inventory
+inverse
+Inverse character
+invert
+Invert Image
+inverted phrases
+Invisible
+Invisible Grid
+invite
+invocation
+invoke
+inward
+irrational number
+irrecoverable
+irrecoverable error
+isolate
+isolation
+issue
+issue a command
+Italian
+italic
+Italicized Cursor
+item
+item separator
+iterate
+Iteration
+jack
+jacket
+jam
+Japanese
+job
+job batch
+job description
+job dialog
+job log
+job number
+job queue
+job scheduling
+Job timeout
+join logical file
+join(sql)
+joint
+journal
+journal entry
+journal receiver
+journaling
+joy stick
+juke box
+jump
+Jump term(Help)
+jumper cable
+junction
+junctor
+justification
+justification gap
+JUSTIFIED(Keyname)
+Justify
+K
+K available
+K bytes
+K bytes available
+K free
+K on disk
+keep
+kern
+kernel
+kerning
+key
+Key Assignments
+key combination
+Key Field
+key in
+Key Layout
+Key list
+key pad
+key sequence
+Key Type
+keyboard
+keyboard clicker
+Keyboard commands
+keyboard control
+keyboard layout
+Keyboard mapping
+keyboard overlay
+Keyboard shortcut
+keyboard style
+KeyCaps(DA)
+keyed sequence access path
+keyed sequential access
+keyname
+keypad
+keys help
+keystroke
+keystroke sequence
+keyword
+kilobyte(KB)
+kind
+kit
+km
+knowledge based system
+knowledge system
+Korean
+label
+lag
+landing
+landscape
+Landscape/Portrait
+Lang Shift State
+Lang State
+language
+Language Property
+laptop computer
+Large capacity
+large integer
+laser printer
+LaserWriter
+lasso
+Last
+Last Modified
+latch
+latency
+latent image
+Latitude
+launch(to)
+layer
+layered machine architecture
+layout
+Layout menu
+layout properties
+leader
+Leader Character
+leading
+leading characters
+leading zero
+leased line
+least significant digit
+Left
+LEFT
+left adjust
+left aligned
+Left alignment
+Left arrow
+Left Column
+Left flush
+Left indent
+Left indent marker
+Left justified
+Left justify
+Left key
+left margin
+Left margin marker
+Left Sides
+Left text
+Left-aligned
+Left/Inside
+Leftmost
+Legal
+legal file name
+legal number format
+Legend
+length
+Less than(re: math function)
+letter
+letter heading
+letter quality
+Letter quality printer
+Letter template
+Letterhead
+Letterhead Space
+letterhead stock
+letters and symbols
+level
+Level of heading
+lever
+librarian
+library
+library list
+licence
+License agreement
+licensed program
+life cycle
+lifetime
+light
+light emitting diode
+light pen
+light reading wand
+limit
+line
+Line Between
+Line break
+line chart
+line command
+Line draw character
+line editing
+line feed
+line height
+line justification
+line length
+line number
+Line Numbering
+line of business
+Line Pattern
+line printer
+line spacing
+Line spacing icon
+Line Weight
+linear
+lines per inch
+Linguistics & Proofing Tools
+link
+link edit
+link properties
+link protocol
+Link to
+Link to previous
+link-attached
+linkage
+linkage editor
+linked document
+linked files
+linked object
+linked Styles
+linking and embedding objects
+Linking files
+Links
+liquid crystal display
+list
+List box
+List Box item
+List separator
+literal
+litho
+load
+load file
+load-and-go
+Loader
+local
+local address
+Local Area Network(LAN)
+local controller
+local station
+local terminal
+local workstation
+local-attached
+LocalTalk
+locate
+location
+location name
+lock
+Lock
+LOCK FIELD(Keyname)
+Lock for annotations
+Lock Result(to)
+Locked
+Locked disk
+locked file
+locked volume
+Locking a document
+Locking keys
+locking tab
+log
+log file
+log in
+log off
+log on
+log out
+Logarithmic Scale
+Logged in as
+Logged on as:
+logic
+logical column
+logical drive
+logical file
+logical link
+Logical operators
+login
+logo
+Logo display
+logon
+logon request
+long
+long dash
+long files
+Long Menus
+Longitude
+longitudinal redundancy check
+lookup
+loop
+loop/looping-mechanism
+loosely coupled
+lost chain
+lost cluster
+Low
+low density disk
+low resolution
+low resolution displays
+low-level language
+low-resolution bitmap
+Lower
+Lower heading level
+Lower-right
+Lower-right/left corner
+lowercase
+Mac to MS-DOS
+Mac to ProDOS
+Mac. Operating System
+Mac. Owners Guide
+Mac. Printing Tools
+Mac. System Tools
+machine
+machine check
+machine check handler
+machine code
+machine language
+machine readable information
+machine-readable
+Macintosh
+Macintosh user interface
+macro
+Macro button
+macro call
+Macro Conversions
+Macro Converter
+Macro edit(ing) icon bar
+Macro editing window
+Macro editor
+Macro instructions
+Macro Sheet
+macrodefinition
+macroinstruction
+macrolanguage
+MacroMaker
+macroprocessor
+magazine
+Magenta
+magnet
+magnetic
+magnetic hand scanner
+magnetic ink character reader
+magnetic ink character recognition
+magnetic slot reader
+magnetic stripe
+magnetic stripe slot reader
+magnetic stripe wand
+Magnification
+magnifier
+magnify
+mail
+mail log
+Mail Merge
+Mailing address
+mailing labels
+main
+Main Chart
+Main Chart Axis
+Main Chart Type
+main circuit board
+Main Dictionary
+Main Document
+main entry
+Main Group
+main logic board
+main memory
+main storage
+Main unit
+mainframe
+mainline
+maintain
+maintenance
+maintenance mode
+major
+major event code
+Major Grid Lines
+Major Unit:
+majority
+make a backup(to)
+Make Changes
+malfunction
+Maltese
+management
+management capabilities
+management information system
+Managing
+Managing documents
+mandatory
+manipulate(to)
+manipulation
+mantissa
+manual
+manual feed
+Manual feed guide
+manual feed tray
+manual pagebreak
+map
+Map(DA)
+mapped
+mapped buffer
+mapping
+Mapping characters
+marching ants
+margin
+margin headings
+margin marker
+margin setting
+mark
+Mark New Text With
+Mark Revisions
+marker
+marking character
+markup language
+marquee
+mask
+mass
+mass storage
+master
+Master copy
+master file
+match
+match case
+Match Upper/Lowercase
+math coprocessor
+Mathematical equation
+Mathematical operator
+Mathematical Typeface / typesetting
+matrix
+matrix printer
+maximize
+maximize button
+maximum
+Maximum Change:
+Maximum Iterations:
+mean
+Meanings
+measurements
+mechanism
+media
+Media Handler
+medialess
+medium
+Megabyte
+megabytes
+megahertz
+member
+membrane
+membrane keyboard
+memo
+memory
+memory cache
+memory cache card
+Memory free:
+Memory Manager
+Memory restrictions
+Memory Usage
+Memory used
+menu
+Menu Alteration Procedures
+menu assignment
+menu bar
+Menu Blinking
+Menu changes
+menu driven
+menu item
+menu structure
+Menu Text
+Menu title
+merge
+merge address
+Merge instructions
+Merge record number
+Merge Records
+MergeField
+merging documents
+merging records
+message
+Message Bar
+message box
+message handler
+Message line
+message pop-up
+message queue
+Metafile
+metafile format
+method
+methodology
+MFM
+Micro Channel Architecture
+micro-
+microcomputer
+microprocessor
+Microsoft Corp.
+Microsoft@ Excel
+microwave
+MIDI
+MIDI interface cable
+migrate
+migration
+milestone
+minicomputer
+minimize
+minimize button
+minimum
+minimum Row Height
+minor
+Minor Grid Lines
+Minor Unit:
+minus sign
+minutes
+mirror
+mirror image
+mirror margins
+mirrored pair
+mirrored unit
+mirroring
+missing
+misspelling
+mistake
+mixed
+mixed chart
+mnemonic
+mode
+model
+modem
+modem eliminator
+Modem port
+modification
+modification date
+modification level
+modification time
+Modified frequency modulation
+modified text
+Modified:
+modifier
+modifier key
+modify
+modular
+modular programming
+modulate
+modulation
+module
+modulo
+modulus
+monadic operator
+monitor
+mono
+monocasing
+monochrome
+monolithic integrated circuit
+Monospace Font
+Monospaced character
+monospaced list
+Month
+more
+Morning format(re: time)
+most significant digit
+motor
+Motorola 68000
+mount
+mouse
+Mouse Action
+Mouse Basics
+mouse button
+Mouse keys
+Mouse Pointer
+Mouse position
+Mouse shortcuts
+Mouse Tracking
+Mouse tricks
+Mouse(serial / bus)
+move
+Move to Desktop
+move to(re: position or option)
+Mover
+Movie
+Movie Controller
+Movie Grabber
+Movie Play
+Movie Preview Maker
+MS-DOS
+MS-DOS executive window
+MS-DOS Executive(System Menu)
+MS-DOS to Mac
+MS-DOS to ProDOS
+multi-
+Multi-color Graphics Adapter
+Multi-language
+multi-line edit control
+Multicolumn
+multicopy merge
+multidrop line
+MultiFinder
+multilanguage code page
+multilingual code page
+multimedia
+multimedia system
+multinational character set
+multinational system
+multiple
+multiple axis chart
+multiple bar chart
+multiple cell row
+multiple chart
+multiple choice selection list
+Multiple column
+Multiple Column Array
+multiple column text
+Multiple File Support
+multiple files selection
+Multiple Instances
+multiple line report
+multiple routing
+multiple selection field
+multiple session
+Multiple windows
+Multiple-File Document
+Multiple-level entries
+multiplex
+multiplex operation
+multiplexer
+multiplexer channel
+multiplexing
+multiplicand
+Multiplication(re: math function)
+multiplier
+Multiply
+multipoint line
+multiprocessing
+multiprogramming
+multirequester terminal program
+multitasking
+multithreading
+multiuser
+multiuser system
+mutual
+mutually exclusive
+name
+naming convention
+nanosecond
+national
+national language character set
+native
+Native data
+natural
+navigation
+near-letter quality
+negate
+negative
+Negative Indentation
+Negative picture(re: numbers)
+Negative Scrolling
+Negative sign(-)
+Negative variant
+negotiable line
+Neither
+nest
+nested
+Nesting
+nesting level
+network
+network address translation
+network administration
+network administrator
+Network connection
+network database
+Network directory
+network event
+Network File Sharing
+network layer
+network management
+network manager
+network mode
+network planning
+network topology
+network workstation
+networking
+neutral color
+Never
+new
+New Desk AccessoryFile Name:
+New Folder
+New Font File Name:
+New Group
+New Line
+new line key
+New Name:
+New page number
+New Window
+Newline Character
+Newline key
+NEWLINE(Keyname)
+Next
+next
+NEXT FIELD(Keyname)
+NEXT instruction
+Next to Axis
+nickname
+No
+no break
+No breaks between pages
+No Privileges
+no such volume
+No Translations Available
+node
+node id
+noise
+nominal
+Non-breaking Hyphen
+Non-breaking Space
+non-exposed name(SQL)
+non-flowing text
+Non-printing Characters
+non-SNA
+non-text
+nonbreak space
+Nonbreaking space
+nondisplay
+None
+nonescaping key
+nonimpact
+nonpaired data
+Nonprinting
+nonprogrammable workstation
+Nonproportional space Font
+nonresident portion
+nonscan
+nonswitched line
+nonvolatile
+normal
+Normal document view
+Normal editing view
+Normal hyphen
+Normal Margins
+Normal pages
+Normal Size
+Normal Style
+Norwegian
+Not equal to(re: math function)
+Not in any drive
+Not In Dictionary
+not used
+notation
+notch
+note
+Note Pad
+notebook computer
+Nothing
+notify
+Now printing page
+Now reading
+Now writing
+NuBus expansion slots
+nucleus
+null
+null character
+null line
+null macro
+null modem
+null name
+null set
+null string
+null value
+nulls on/off
+Num Lock key
+NUM PLUS
+NUM SUB
+number
+Number conversion
+number field
+Number format
+Number sign(re: numeric switches)
+numbered list
+Numbered List Item
+numbering scheme
+numeration
+Numerator(re: fractions)
+numeric
+numeric character
+numeric constant
+numeric field
+Numeric key
+numeric keypad
+Numeric picture
+Numeric picture switch
+Numeric sorting
+Numeric Variable
+numeric(al)
+object
+object authority
+object code
+object content architecture
+Object format files
+object language
+object library
+object orientation
+object owner
+object program
+object properties
+Object Window Management
+object-action oriented
+object-oriented language
+object-oriented programming
+OCR
+odd
+Odd
+off
+off-hook
+off-line
+off-line volume
+off-screen
+offer
+offering
+office
+office automation
+offline
+offline storage media
+offset
+offset pie slice
+offset stacking
+OK
+OLE(Object Linking & Embedding)
+omit
+on
+On the desktop
+on the disk
+on-hook
+On-line
+On-line assistance / help
+On-Line Documentation
+on-line help
+on-line volume
+On-screen help
+ONE-AND-A-HALF SPACE(Keyname)
+One-Sided
+one-way
+online
+online education
+online help
+online information
+open
+Open another volume
+Open Apple key
+Open Architecture
+Open as Read Only
+open driver
+open file
+Open Folder
+Open footer
+Open header
+OPEN SPACE(Keyname)
+open system
+open systems architecture
+Open Systems Interconnection
+Open Volume
+open-ended
+Open/Change Links
+Opening a database
+opening character
+Opening parenthesis
+operand
+operate
+operating
+Operating Limitations
+Operating system
+Operating System 2
+operation
+operational database
+operator
+opposite
+optical
+optical character reader
+optical character recognition
+optical disk
+optical disk platter
+optical drive
+optical fiber
+optical platter
+optical reader
+optical scanner
+optimization
+optimum
+option
+Option Button
+Option key
+optional
+Optional Hyphen
+Or
+order
+ordered list
+Ordinal(re: format switches)
+organization
+organize
+orientation
+origin
+original
+original file
+Original setting
+Original Size
+originator
+Orphan control
+Orphan Line
+orphan line
+OS/2 command prompt
+OS/2 Full Screen icon
+OS/2 Presentation Manager
+OS/2 prompt
+oscillate
+Other translations
+out-basket
+out-of-memory message
+outboard
+outbound
+outdoor
+outgoing
+outlet
+outline
+Outline form
+Outline Level
+Outline mode
+Outline views of folders
+Outlined
+outlook
+output
+output device
+output file
+Output Mode
+output queue
+output tray
+output work queue
+Outside
+Outside Margin
+overflow
+overflow handling
+overflow indicator
+overhead
+overhead operation
+overlap
+Overlapped
+overlay
+Overlay Chart
+Overlay Chart Axis
+Overlay Chart Type
+overlay keyboard
+overlay program
+overlook
+overpaint
+override
+overrun
+overstrike
+overstrike character
+Overtype mode
+Overtype(to)
+overview
+overwrite
+owner
+Owners Guide
+pace
+pacing
+pack
+package
+packed
+packed decimal
+packed field
+packed file
+packet
+packet switching
+pad
+padding
+paddle
+page
+Page Back
+Page border
+Page Boundary Margin
+page break
+page down
+page fault
+Page Footer:
+page format
+Page Forward
+page frame
+Page Header:
+page layout
+Page layout Properties
+page left
+page limit
+page number
+Page Number Cross-Reference
+Page Numbering
+page offset
+Page Orientation
+page printer
+Page Range
+page rectangle
+Page Reference
+page right
+page segment
+Page Setup
+Page Size
+page swapping
+page up
+Page View
+page zero
+pageable
+Paged Memory Management Unit
+PAGEDOWN Key
+PAGEUP Key
+paginate
+Pagination
+paging
+paging icon
+paint
+Paint text
+Paintbrush
+paired
+paired data
+palette
+Palette of drawing tools
+palmtop computer
+Pane
+panel
+panel area
+panel area separator
+panel element
+panel group
+panning
+Paper
+paper break
+paper cassette
+Paper clamp
+paper clip
+Paper Feed
+paper guide
+paper jam
+paper length
+paper load
+Paper output tray
+paper registration
+paper release
+paper size
+Paper tray
+paragraph
+Paragraph Break
+Paragraph Formatting
+Paragraph indentation
+Paragraph Library
+Paragraph Mark
+Paragraph Spacing
+Paragraph spacing icon
+Paragraph text
+parallel
+parallel ¥ serial printer
+Parallel Columns
+parallel communication
+parallel computer
+parallel device
+parallel operation
+parallel port
+parallel processing
+parallel run
+parallel transmission
+parameter
+Parameter Passing
+parameter passing to macro
+Parent directory
+parent element
+Parent style
+Parent window
+parenthesis
+parity
+parity bit
+parity check
+parity checking
+parser
+Part
+part(ial)
+Partial index
+partition
+partition table
+partner
+pass
+pass-through
+pass-through facility
+passive
+password
+paste
+Paste Function
+Paste in back
+Paste in front
+Paste Name
+Paste Special
+patch
+patch code
+path
+path name
+path string
+pattern
+pattern recognition
+pause
+PC Drive Card
+PC session
+PC support
+peak
+peer
+peer to peer
+pel
+Pen menu
+Pencil
+pending
+penetration
+percent
+Percent complete:
+perforated
+perforation
+perforator
+perform
+perform an action
+performance
+performance tuning
+period
+peripheral
+Peripheral Accessories
+Peripheral device
+permanent
+permit
+permutation
+Persian
+personal computer
+Personal preferences
+PgDn key
+PgUp key
+phase
+photoconductor
+phrase
+physical
+physical child
+physical file
+physical layer(OSI)
+physical link
+physical parent
+pica
+pictoral symbol(re: field switches)
+picture
+picture border
+Picture Editor Embedder(WinDraw)
+picture element
+picture file name
+Picture Frame
+Picture Objects
+Picture Placeholder
+picture space
+Pictures
+pictures in frames
+Pie
+pie chart
+pilot run
+pin
+pinfeed
+pink
+pipeline
+pipeline options
+pipeline processor
+piping(dos)
+piracy
+pitch
+pixel
+place holder
+Plain
+Plain text
+Plain text file
+plain type
+Plain-text documents
+plaintext
+plan-of-record
+plate
+platen
+platform
+play a script
+playback
+Please name this disk:
+Please name this volume:
+plot
+plotter
+plotting vector
+plug
+plug and go
+plug and go application
+plug-compatible
+plug-in
+plus sign
+PMMU
+pocket
+Pocket guide(booklet)
+point
+Point Number:
+point of call
+point size
+point to point line
+Point(measure)
+point-of-sale device
+point-of-sale system
+pointer
+Pointer Shape
+Pointing
+Points of backward space
+Points of forward space
+Points of vertical(horizontal)
+polar
+polarize
+Polish
+polishing a document
+poll
+pool
+pop
+Pop Up Menu
+pop-up window
+port
+portability
+portable computer
+Portable Operating System Interf
+portrait
+Portrait display
+Portuguese
+pos register
+pos terminal
+position
+position-independent
+Positioning
+positive
+positive picture(re: numbers)
+post(power ON SELF TEST)
+postmortem
+Postpone(to)
+PostScript Printer on...
+power
+power cord
+power light
+Power Manager Processor
+power off
+power on
+Power On key
+power socket
+power strip
+Power supply
+power switch
+power typing
+power-on indicator
+Powers(re: math function)
+pragmatics
+pre-
+precedence
+precision
+precompile
+predefine
+Predefined
+predicate(SQL)
+Preferences
+Preferred
+prefix
+preliminary checklist
+preparation
+prepared SQL statement
+Preparing for copy
+preprocessor
+preprogrammed
+prerecorded
+prerequisite
+preselected choice
+presentation
+presentation layer(OSI)
+presentation manager
+presentation medium(SNA)
+presentation services layer(SNA)
+preset
+preset parameter
+press
+Press a key
+Prev Column
+preventive
+preventive maintenance
+Preview
+Preview / Print Preview
+Preview font
+preview window
+Previous
+PREVIOUS FIELD(Keyname)
+price
+primary
+primary axis
+primary code page
+primary dos partition
+primary file
+primary partition
+primary window
+prime number
+print
+print belt
+print buffer
+Print catalog
+Print Date
+Print Directory
+Print draft
+print file
+Print file
+Print final
+Print Gridlines
+print head
+print job
+Print Length:
+print line
+Print Manager
+Print Merge
+Print Merge Update
+Print Options
+print preview
+print queue
+print rate
+Print Row & Column Headings
+Print Screen key
+print server
+print specifications
+print spooler
+Print Time
+Print User Log
+print wheel
+Print Width:
+PrintEnvelopes macro
+printer
+Printer code
+Printer control codes
+printer driver
+printer file
+printer font
+Printer Guide
+Printer Installer
+Printer Message:
+Printer port
+printer resource
+Printer Settings
+printer setup
+printer software
+Printer Timeouts
+printer writer
+Printing instructions
+printing options
+Printing Tools
+printout
+priority
+privacy
+privacy lock
+private
+private authority
+private line
+privilege
+problem
+problem-oriented language
+procedural language
+procedure
+procedure-oriented language
+process
+process control
+process control system
+processing
+processor
+processor unit
+ProDOS
+ProDOS to Mac
+ProDOS to MS-DOS
+production
+productive
+productivity
+profile
+program
+program data
+program directory
+program generator
+Program linking
+Program Manager
+program product
+program temporary fix(PTF)
+program-described data
+program-described file
+programmable read-only memory(PROM)
+programmable terminal
+programmable workstation
+progressive
+project
+project control
+project management
+project planning
+projection
+prologue
+promote(to)
+promoting a heading level
+prompt
+Prompt for Summary Info
+prompt list pop-up
+prompt text
+Prompt(DOS)
+prompted stop code
+Proofing a document
+Proofing pass
+Proofing Tools
+proofread
+propagation
+properties
+proportional
+Proportional character spacing
+proportional font
+proportional Space Font
+proportional spacing
+Proportionally Spaced Font
+protect
+protected
+protected text
+protocol
+prototype
+pseudo-
+PTF
+public
+publication
+publish
+Publisher
+publishing
+Pull down menu
+pull-down(menu)
+pulse
+punch
+punctuation
+punctuation mark
+purge
+purpose
+push
+pushbutton
+pushbutton dialing
+put
+Put Away
+Put back
+Puzzle
+quad
+qualified name
+qualifier
+qualify
+quality
+Quality Assurance
+quantified predicate(SQL)
+quantify
+quantity
+query
+queue
+Queue Terminate
+Queued Printing
+quick
+quiesce
+quiet
+quit
+Quitting
+quotation mark
+quotient
+rack
+rack-mounted system
+radiation
+radio button
+ragged edge
+Raise level
+Raise(to)
+Raising Heading Level
+RAM
+RAM cache
+RAM Disk
+RAM-resident Software
+RAMDrive
+random
+random access
+random-access device
+random-access memory(RAM)
+random-access text file
+randomize
+range
+range check
+range of cells
+rank
+raster
+raster count
+raster display device
+raster font
+raster graphics
+raster pattern
+raster scan
+rate
+Rate of Insertion Point Blinking
+ratio
+rational number
+raw
+re-
+reach
+read
+read authority
+read error
+Read Me documents
+Read Only
+read only file
+read-only
+Read-only access
+read-only memory
+Read-write access
+readability score
+readable character
+reader
+Reading:
+ready
+Ready to start
+real
+real mode
+real number
+rearrange
+Reassign
+reboot
+recall
+receipt
+receive
+Receive File
+receiver
+Recent
+receptacle
+reclamation
+recognition
+reconciliation
+record
+record a macro
+Record Button
+Record Macro
+Recover(to)
+recoverable
+recovery
+Recovery process
+recovery routine
+recursion
+recursive
+recycle
+Red
+Redefine(to)
+redirection
+Redo
+Redraw
+reduce
+Reduce or Enlarge
+Reduce to fit
+reduction
+redundancy
+redundancy check
+reel
+refer
+reference
+Reference field
+reference line
+Referenced Document(RD) fields
+Referenced Item
+reflect
+reflectance
+reflection
+refresh
+Refresh Field
+refresh rate
+regenerate
+region
+register
+registered trademark
+Regular Hyphen
+Regular Link
+regulate
+reiterate
+reject
+related words
+relation
+relational
+relational database
+relational operator
+relative
+relative data
+relative size pie
+Relative to
+relay
+relayed frame
+release
+reliability
+relinquish
+relocatable
+relocate
+remainder
+remark
+reminder
+remote
+remote computer
+remote controller
+remote device
+remote host
+remote job entry
+remote power off
+remote power on
+remote station
+remote system
+remote workstation
+remove
+Remove footers
+Remove Group
+Remove headers
+Remove Page Break
+Rename
+Renumber(to)
+reorder
+reorganize
+repaginate
+Repaginate Now
+Repagination
+repair
+Repair Automaticaly
+repeat
+REPEAT COMMAND(Keyname)
+Repeat delay
+repeat key
+REPEAT SEARCH(Keyname)
+repertoire
+replace
+replace mode
+Replace With:
+replicate
+reply
+report
+repository
+representation
+reproduce
+request
+Request item
+requester
+required carrier return
+required hyphen
+required page break
+required parameter
+required space
+requirement
+rerun
+Rescue
+reserve
+reserved
+reserved word
+reservoir
+reset
+Reset switch
+Reshape Arc
+Reshape Polygon
+Reshape Yeniden
+resident
+Residing in Background
+residual error ratio
+residue
+residue check
+resilient
+Resize
+Resize handles
+resolution
+resolve
+resolver
+resource
+response
+response time
+restart
+restore
+Restore a single file
+Restore all files
+restore button
+restrict
+result
+result field
+Resulting Style
+results list
+resume
+retail
+Retain Line Breaks
+retention
+retention cycle
+retrieval
+Retrieve
+retrofit
+retry
+return
+return code
+return graphic
+Return key
+retype
+reusable
+reverse
+reverse engineering
+reverse indexing
+Reverse Print Order
+reverse video
+Reversible(action)
+Revert
+Revert to Saved
+review
+Revisable-Form Text(RFT)
+Revised Text
+revision
+revision bar
+Revision Marking
+Revision Marks
+Revision Numbers
+revision symbol
+rewind
+ribbon
+Ribbon/Ruler
+Rich Text Format
+Rich Text Format(RTF)
+Right
+right adjust
+right align
+right aligned
+Right aligned / right justified
+Right alignment
+Right Flush
+Right indent
+right justify
+Right key
+right margin
+RIGHT SHIFT
+Right Sides
+Right text
+Right-alignment box
+Right/Outside
+ring
+ring response
+RISC(Reduced Instruction Set Com
+rise
+risk
+risk assesment
+Roadmap
+robot
+robotic controller
+robotics
+roll
+roll back
+roll in
+roll out
+rollback(SQL)
+roller
+ROM
+Roman numerals
+Romanian
+root
+root directory
+root element
+Roots(re: math function)
+rotary dial
+Rotate
+Rotate Left
+Rotate Right
+rotation
+rotation hot key
+rotational delay
+rotor
+round
+Round Corners
+Rounded-corner box
+route
+router
+routine
+routing
+routing entry
+row
+Row & Column Headings
+row boundary
+Row Input Cell:
+row width
+royalty
+RTF(Rich Text Format)
+Ruler
+Ruler change
+ruler line
+Ruler Mode
+Ruler scale
+Ruler setting
+Rules
+run
+Run Macro
+Run Macro Name
+run query
+run(an application)
+Run-in Index
+run-time
+run-time environment
+run-time module
+running foot(ing)
+running heading
+Running out of memory
+Russian
+SAA application
+SAA architecture
+SAA enabler
+SAA environment
+SAA solution
+safety ring
+sale
+sales representative
+same
+sample
+Sample box
+Sample database
+Sample file
+Sampler
+sampling
+Sans serif font
+satellite
+saturation
+save
+save as
+Save current document
+save file
+Save Formatted Values
+Save my name and password
+Save my name only
+Save summary as
+save system authority
+Save Unformatted Values
+Saved
+saving
+Saving large clipboard
+Saving Reminder
+scalar
+scalar function
+scale
+scale line
+Scale(to)
+Scaleable View
+Scaled-down version
+scaling
+scaling factor
+scan
+scanner
+Scanning order
+Scatter
+Scatter Chart
+scatter diagram
+scatter plot
+schedule
+scheduling
+schema
+scope
+scrap
+scrap file
+Scrapbook
+Scrapbook File
+scratch
+Scratch Files
+scratch install
+scratch tape
+screen
+Screen buffer
+Screen colors
+Screen Design Aid
+Screen fonts
+Screen messages
+Screen Redraws
+Screen regions
+screen shot
+Screen Size
+script
+scripting language
+scroll
+scroll area
+scroll arrow
+Scroll bar
+Scroll box
+Scroll by the windowful
+Scroll Lock key
+Scroll up(down)
+scrollable list
+Scrolling
+Scrolling character
+Scrolling through a document
+SCSI
+SCSI Cables and Teminators
+SCSI Device:
+SCSI ID Number
+SCSI port
+SE Bus
+SE bus access port
+search
+Search and replace
+Search direction
+search for
+Search for box
+Search List
+search path
+search word
+Searched
+secondary
+secondary axis
+secondary file
+secondary window
+section
+Section break
+Section Heading
+Section Mark
+Section Property
+Section Start
+Section Title
+sector
+security
+security officer
+security violation
+See Files
+See Folders
+seek
+segment
+seize
+select
+Select All
+select button
+Select Chart
+Select Last Cell
+Select Plot Area
+selected
+Selected Items
+Selection
+Selection area
+Selection Bar
+Selection Bar Arrow
+selection box
+selection fields
+Selection pointer
+selection rectangle
+selective
+self check
+self service machine
+self test
+semantics
+semi-
+Semi-automatic numbering
+semiconductor
+Seminar
+send
+Send File
+Send to back
+sense
+sensor
+sentence
+separate
+separator
+Seq-id(re: SEQ fields)
+seqence of actions
+sequence
+Sequence field
+Sequence identifier
+Sequence item
+Sequence name
+Sequence number
+Sequence Number Cross-Reference
+Sequence value
+Sequences of Items
+sequential
+sequential access
+Sequential numbering
+Serbian
+serial
+Serial communication
+serial data
+serial device
+Serial Driver
+Serial interface
+serial mouse
+serial number
+serial port
+serial printer
+serial processing
+Series
+Series Number:
+Series or Data Point
+serif
+serif-font
+server
+Server Folder
+Server Info
+Server menu
+Server report
+server startup volume
+Server summary
+service
+service mode
+session
+set
+set a path
+Set Criteria
+Set Database
+Set Default
+set nulls on/off
+set of documents
+set off
+set on
+Set page
+Set Page #
+Set Page Break
+Set Preferred Format
+Set Print Area
+Set Print Titles
+Set Recorder
+Set Startup
+Set Startup Options
+set up
+Set(tabs)
+set-off
+setting
+Setting tab stops
+Setting the format
+Setting up
+setup
+Setup Connections
+Setup disk
+Setup guide
+Setup program(SETUP)
+severity
+severity code
+shade
+Shaded
+Shades
+shading
+shadow
+shadowing
+Shaft Weight
+Shape
+shape definition
+share
+Share data
+share lock(SQL)
+shared file
+shear
+sheet
+Sheet-feed
+shelf
+shelf life
+shell
+shell document
+SHIFT
+shift
+Shift Cells
+Shift Cells Down
+Shift Cells Left
+Shift Cells Right
+Shift Cells Up
+Shift click
+Shift key
+shift lock
+shift state
+shift-in character
+shift-out character
+short
+Short Menus
+Short Name:
+shortcut
+shortcut key
+Shortcuts
+Show Active Cell
+Show All
+Show Boundaries
+Show Clipboard
+Show Dates
+Show Entire Chart
+Show Footer
+Show Grid Lines
+Show Header
+Show Messages
+Show page
+Show Page Breaks
+Show Ruler Lines
+Show rulers
+Show Size
+Show Summary
+Show Tab Ruler
+Show Task Info
+Show Total
+Show User Log
+Show Value
+Show(to)
+shredder
+Shrink down
+SHRINK FONT(Keyname)
+SHRINK SELECTION(Keyname)
+shrink to an icon
+Shrink(to)
+Shut Down
+shutdown
+sibling element
+side
+Side by Side
+Side-by-Side Paragraphs
+Sidebars
+Sideheads
+Sides required
+sift
+sifting sort
+sight
+sign
+sign-off
+sign-on
+signal
+signature
+significand
+significant
+SIMM
+simple
+simple list
+simplex
+Simplified Chinese
+simulate
+simulation
+Single
+Single close quote
+Single column
+single density
+single level storage
+Single open quote
+single precision
+Single sheet
+single sheet guide
+single sheet paper
+single sided diskette
+Single space
+Single Step
+single-byte character set(SBCS)
+single-byte coded font
+Single-drive system
+single-selection field
+Single-sheet printing
+single-sided
+Single-sided printing
+Single-space
+Single-space box
+single-spaced(paragraph)
+sink
+size
+Size & Orientation
+Size box
+size properties
+Sizing Arrow
+sizing border
+Sizing Handle
+skeleton
+skew
+skip
+Skip lines
+Skip Volume
+slack
+slash
+slave station
+slice
+slice label
+Slide
+slip install
+slot
+slot reader
+Slovak
+Slovenian
+Slow
+Slow Keys
+slowdown
+small caps
+Small icon
+small integer
+smooth
+Smoothing
+sneak current
+socket
+Soft Break
+soft copy
+Soft fonts
+soft hyphen
+soft page break
+soft sector
+soft sectored
+soft switch
+softcopy
+softcopy publishing
+software
+Software catalog
+software reset
+solicit
+Solid line
+solid state
+Some
+sort
+Sort by
+Sort Column Only
+sort key
+sort order
+sort sequence
+sorting criteria
+sound
+sound buffer
+Sound generator
+source
+source code
+Source disk
+source diskette
+source document
+Source Entry Utility
+source file
+source member
+source physical file
+source program
+source volume
+space
+space bar
+space character
+space parity
+spacing
+span
+Spanish
+speaker
+Speaker Volume
+special
+special authority
+Special character
+special feature
+special file
+Special key
+Special mark
+Special menu
+special-character keyboard set
+specialized templates
+specific
+specification
+Specify(to)
+speech recognition
+speed
+Speed Control
+speed copy
+Speed formatting
+spell aid
+spell checking
+Speller
+spelling
+spelling checker
+spelling dictionary
+Spelling Options
+Spelling Tools Menu)
+Spike
+spike
+spin button/control
+spindle
+split
+split a window
+Split bar
+Split box
+SPLIT TABLE(Keyname)
+splitter(lan)
+splitting
+Splitting Window
+sponsor(proje yönetimi)
+spool
+spool file
+spool printing
+Spooled printing
+spooler
+spooling
+spot
+spray
+spreadsheet
+sprite graphics
+stability
+stack
+stacked job
+stacker
+stand-alone
+stand-alone modem
+standard
+Standard Edition(SE)
+Standard Format
+Standard return address
+Standard style
+Standard Width
+Standard(or main) dictionary
+standardize
+standby
+star
+star network
+star/ring network
+start
+starter diskette
+Starting Number
+Startup Device
+Startup disk
+Startup document
+Startup Items
+Startup Items folder
+Startup options
+startup resources
+startup screen
+startup(disk)
+state
+state of the art technology
+statement
+static
+static electricity
+static SQL
+Static Text
+station
+Stationery pad
+Statistics
+status
+Status bar
+status line
+steady
+step
+Step by step
+step mode
+step value
+stepwise refinement
+Sticky keys
+stop
+stop bit
+stop character
+stop code
+stop merge graphic
+Stop scrolling
+Stop Value:
+storage
+storage area
+storage capacity
+storage device
+storage medium
+storage pool
+storage size
+Storage space
+storage type
+store
+Straight Copy
+Straight edge
+stream
+stream editor
+streaming
+streaming mode
+streaming tape drive
+strength
+Stretch
+strikeout
+strikeover
+Strikethrough/ Strikethru
+string
+string control byte
+string option
+string variable
+stripe
+stroke
+stroke font
+structure
+Structured data records
+structured programming
+Structured Query Language
+structured walk-through
+stub cable
+style
+Style Area
+Style box(ruler)
+Style change
+style characteristic
+style dialog
+style menu
+Style mode
+Style name
+Style Sheet
+Styles Linked to Template
+sub dialog
+sub-
+subdirectory
+Subentry
+subject
+Sublevel
+Submenu
+submit
+subnet
+subnet address
+subnet value
+subnetwork
+subquery
+subroutine
+Subscribe
+Subscriber
+subscript
+subselect
+subset
+substitute
+Subtext
+Subtitle
+Subtract
+Subtraction(re: math. function)
+suffix
+Suggest(to)
+Suggestions
+Suitcase
+sum
+summary
+Summary Info
+summary report
+supercomputer
+superscript
+supersede
+supervision
+supervisor
+supervisor call(SVC)
+supervisor mode
+supervisor state
+supervisory program
+Supplemental
+supplemental dictionary
+Supplied macros
+supply
+support
+Support for 16 Colors
+support program
+suppression
+surface chart
+Surge protector
+survey
+suspend character
+suspended program
+swap
+swap-in
+swap-out
+Swappath
+swapping
+Swedish
+sweep
+Swiss French
+Swiss German
+Swiss Italian
+switch
+switch backward
+Switch between
+switch forward
+switch off
+switch on
+switch setting
+Switch to
+Switch Window
+switchboard
+switched line
+switcher
+switching
+Switching application
+swivel
+syllable
+syllable hyphen
+symbol
+symbol field
+Symbol Palette
+symbol set
+symbol string
+symbol table
+symmetric
+synchronous
+synchronous idle character
+synergic
+synergy
+Synonyms
+syntax
+syntax error
+synthesis
+synthesizer
+synthesizer buffer
+system
+system administrator
+system analysis
+system analyst
+system calendar
+system configuration
+system directory
+system disk
+system distribution directory
+System document
+system failure
+System File
+System Folder
+system font
+system font size
+system integration
+system integrity
+system life cycle
+system macro
+System menu
+System patches
+System profile
+system prompt
+System Requirements
+System settings
+System software
+System Software User's Guide
+system startup information
+system status bar
+System Tools
+system window
+systems analysis
+Systems Application Architecture
+systems engineer
+Systems Network Architecture(SNA)
+tab
+Tab button
+Tab character
+Tab Delimited
+tab delimiter
+tab interval
+Tab key
+tab leader character
+tab marker
+Tab Position
+tab ruler
+tab setting
+Tab space
+Tab stop
+Tab stop alignment icons
+Tab stop marker
+tab well
+tabbing
+table
+Table balance
+Table cell marker
+Table cell outline
+Table Entry Fields
+Table Gridline Pen
+Table Gridlines
+table lookup
+table mode
+Table Of Authorities
+Table of Contents
+Table of Figures
+Table scrolling
+tablet
+tabulate
+Tabulation command
+tag
+Tagged Image File Format file(TIFF)
+tailor
+Tall
+Tall Adjust
+tape
+Tape backup device
+tape cartridge
+tape deck
+tape mark
+tape reel
+target
+target directory
+Target file
+target path
+tariff
+task
+task box
+Task list
+TeachText
+technical
+Technical Reference
+telecommunication
+teleconferencing
+telecopier
+telecopy
+telefax
+teleprocessing
+teleprocessing network
+teletex
+teletext
+telex
+template
+Template file
+temporary
+tensile
+tentative
+term
+terminal
+terminal emulation window
+terminal emulator
+Terminal font
+terminal mode
+terminate
+terminate and stay resident
+terminate-and-stay-resident program
+Terminator
+test
+text
+Text Area
+text attribute
+Text Boundaries
+Text box
+Text characteristics
+text chart
+text cursor
+text editing
+text editor
+text field
+text file
+text file format
+text formatting program
+Text generator
+text graphic
+Text letter
+Text mode
+Text only
+text property
+Text string
+Text tool
+Text Translation
+text transparency
+text window
+text wrap
+text-only document
+Text-Only Files
+Textual Cross-Reference
+Textual entry
+texture(graphics)
+Thai
+The volume name is
+theory
+thermal
+Thesaurus
+Thick
+Thin(typeface)
+third party
+This disk is damaged
+thousands separator
+thrashing
+Thread
+threshold
+throughput
+tick
+tie line
+tightly coupled
+Tiled
+time
+Time Differ.
+time format
+time frame
+Time icon
+time of day clock
+time out
+time sharing
+time slice
+time slot
+time stamp
+Time Zone
+timed IPL
+timeout
+timer
+tip
+Title
+title bar
+Title Page
+To file:
+To:
+TOC entry
+TOC File
+TOC Generation
+TOC Number Format
+TOC(Style)
+Together
+toggle
+Toggle Case
+Toggle Case Key
+Toggle keys
+token
+token ring adapter
+token ring interface coupler
+token ring network
+tone
+tone dialing
+toner
+Toner cartridge
+tool
+Tool Box
+Tool error
+Tool palette
+Toolbar
+toolbox
+toolkit
+Top
+top margin
+Top of Form(TOF)
+Top of page
+Top Row
+top window border
+Top(Header)
+Top-of-Form command
+Top/Bottom Centers
+topdown programming
+Topic
+topology
+total
+total allocation units
+Total disk capacity:
+total disk space
+Total Memory:
+Total RAM in use
+touch
+touch screen
+touch sensitive
+touch sensitive screen
+trace
+Trace Edges
+trace file
+trace log
+trace table
+tracing facility
+track
+track ball/trackball
+track density
+tracking
+trackpoint(device)
+tractor
+trade secrets
+trademark
+Traditional Chinese
+trail
+trailer
+trailer card
+trailer label
+trailer record
+trailing space
+Training
+training disk
+training guide
+transaction
+transaction code
+transaction file
+transceiver
+transcribe
+transcription machine
+transfer
+transfer rate
+transform
+transient area
+transient routine
+transistor
+transition
+translate
+translator
+transmission
+transmit
+transparent
+transport
+transport layer(OSI)
+trap
+Trash
+Travel Keys
+tray
+tree network
+tree search
+tree structure
+tributary
+tributary station
+trigger
+trim
+Triple spacing
+trivial
+troubleshoot
+TroubleShooting
+True Autosave
+True Type font
+TrueType
+truncate
+trunk
+trunk cable(ESCON)
+Try again
+tune
+Turkish
+turn off
+turn on
+turn-key
+turn-key project
+turnaround time
+turnover
+turquaise
+tutorial
+Tutorial Help
+Tutorial window
+twin
+twinaxial
+Two page monochrome monitor
+Two-dimensional Array
+Two-drive system
+Two-headed arrow
+Two-headed up-and-down arrow
+Two-Sided
+Type
+Type head
+type size
+Type(to)
+Typeface
+typeface/type face
+typefont
+typematic key
+typeset
+Typesetter
+Typesetting system
+typewriter
+typing error
+Typing replaces selection
+UI(User Interface)
+Ukrainian
+ultraviolet
+Unable
+unary
+Unassign(to)
+unattended
+unattended operation
+unavailable choice
+unbalanced
+unbind
+unblock
+uncheck(to)
+Uncollated copies
+uncommitted read(SQL)
+unconditional
+underline
+underscore
+underscore character
+undo
+Undo command
+Undo Revisions
+unformatted
+uniform
+UNINDENT(Keyname)
+union(SQL)
+unipolar
+unique
+unique key
+Unique Records Only
+unit
+Unit of measurement
+unit of text
+universal
+Unknown
+unknown error
+unknown problem
+unlink
+Unlinking a Field
+unload(tape)
+unlock(to)
+Unlocking a document
+Unlocking a field
+unmapped
+unmarked column
+unmount
+unnamed
+UNNEST(Keyname)
+unnumbered
+unordered list
+unpack
+unqualified
+unrecoverable
+unrecoverable error
+UNSPIKE(Keyname)
+Untitled
+Untitled document
+unwind
+Up
+Up arrow
+Up arrow icon
+Up arrow key
+Up key
+up-time
+up-to-date
+update
+update authority
+update event
+Update Fields
+Update folder
+update region
+upgrade
+Upgrade kit
+upline
+upload
+Upper
+upper shift
+Upper-left
+Upper-right
+uppercase
+Uppercase Roman numerals
+Upside down
+upsizing
+upstream
+upward compatibility
+Urdu
+US Legal
+US Letter
+usability
+usability test
+usable
+use authority
+Use MiniFinder
+user
+user area
+User Dialog
+User dictionary
+user directory
+user exit
+user exit routine
+user friendly/user-friendly
+user group
+user id
+User Info
+user information window
+user interaction
+user interface
+User interface toolbox
+user keys
+user level
+User Log
+User Log Text
+user macro
+User Name
+user object
+user patch
+user prefix
+user profile
+user profile data
+user profile item
+user's guide
+User's Name
+User's Profile
+User's Reference
+user-defined collating sequence
+Users list
+Users menu
+Using math chip
+Utilities
+utilities disk
+Utilities disk
+Utilities Folder
+Utilities Group
+Utilities kit
+Utilities Users Guide
+utility
+Utility application
+Utility Disk
+utility program
+utilize
+vaccine program
+vacuum
+valid
+Valid
+valid signal
+validate
+validation check
+validation test
+validity
+value
+value added network
+Value Axis
+variable
+variable name
+variable-height character
+vary off
+vary on
+vary-off
+vary-on
+vector
+vector graphic
+vector symbol set(VSS)
+vectorial
+vendor
+vendor logo program
+Venn diagram
+verification test
+verify
+Verifying Format...
+Verifying:
+versatile
+version
+version data
+Version Number
+vertical
+Vertical Alignment
+Vertical binding
+Vertical hold
+Vertical justification
+Vertical lines
+vertical redundancy check
+Vertical rule
+Vertical scroll
+Vertical Scroll Bar
+Vertical scrolling
+Vertical size
+vertical spacing
+Vertical tabbing
+Vertical two-headed Arrow
+Vertical-feed envelope
+Vertically
+Very Slow
+video
+Video cable
+video card
+Video Controller
+video driver
+Video Graphics Adapter
+Video Graphics Array(VGA)
+Video jack
+video mode
+video monitor
+video port
+Video screen
+video signal
+videoconferencing
+view
+View angle
+View Another
+View level
+View menu
+Viewing scale
+viewpoint
+viewport
+Views control panel
+virtual
+virtual address
+virtual disk
+virtual drive
+virtual memory
+virtual printer
+virus
+vision
+visual
+voice
+Voice input
+Voice input device
+voice recognition
+voice synthesizer
+voice-grade channel
+void
+volatile
+volatility
+volume
+volume attributes
+volume bitmap
+volume directory
+Volume Info
+volume is locked
+volume label
+Volume list
+volume name
+Volume Report
+volume serial number
+Volume summary
+Volumes menu
+wafer
+wait
+walk-through
+wand
+wand reader
+wanding
+warm
+warm restart
+warm start
+warning
+Warning beep
+warning message
+wave
+wavelength
+way
+Weekday
+weight
+weighting
+wet
+Wheel
+Where:
+White
+White Space
+Whole
+Wide
+wide area network
+wideband
+widen(to)
+Widow
+Widow and Orphan control
+Widow Control
+widow line
+width
+wildcard character
+window
+Window arranging
+Window bar
+Window border / frame
+window corner
+Window framework
+Window Menu
+Window panes
+Window Split
+Window Split bar
+windowing
+Windowless
+wiper
+wire
+WMF format pictures
+word
+Word Count
+word processing
+word processor
+word spill
+Word underline
+word wrap
+word wraparound
+word-selection break table
+word-wrapping break table
+work
+Work area
+work breakdown structure
+Work environment
+Work file
+working directory
+working diskette
+working drive
+worksheet
+workshop
+Workspace
+workstation
+worm(write-once-read-many)
+wrap
+wrap around
+wraparound
+wrist watch
+write
+write access
+write enable notch
+write protect
+write protect notch
+write protect tab
+write protected
+write-protect
+writer
+Writing:
+x fonts ready for adding
+x-axis(horizontal axis)
+XMA board
+XMA emulator
+XMA memory adaptor
+y-axis(vertical axis)
+Year
+Yellow
+Yes
+yield
+zero
+zero index carrier return
+Zero picture(re: numbers)
+zero suppression
+Zip Code
+zone
+zone width
+Zoom box
+zoom factor
+zoom in
+zoom mode
+zoom out
+zoom(to)
+zooming
