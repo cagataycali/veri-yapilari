@@ -15,6 +15,7 @@
 * [Heap, 2-3 ve B Ağaçları](week-7/week-7.pdf)
 * [Özetleme Fonksiyonları - Hashing](week-8/week-8.pdf)
 * [Çizge - Graph](week-9/week-9.pdf)
+* [Çizge - Graph - MST](week-10/week-10.pdf)
 
 *Geçmiş Yılların Sınav Soruları*
 
