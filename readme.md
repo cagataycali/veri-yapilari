@@ -6,16 +6,16 @@
 
 *Sunumlar*
 
-* [C# Tekrarı](week-1/week-1.pdf)
-* [Yığıtlar ve Kuyruklar](week-2/week-2.pdf)
-* [Bağlı Listeler](week-3/week-3.pdf)
-* [Ağaçlar](week-4/week-4.pdf)
-* [Dengeli Ağaçlar](week-5/week-5.pdf)
-* [AVL Ağaçları](week-6/week-6.pdf)
-* [Heap, 2-3 ve B Ağaçları](week-7/week-7.pdf)
-* [Özetleme Fonksiyonları - Hashing](week-8/week-8.pdf)
-* [Çizge - Graph](week-9/week-9.pdf)
-* [Çizge - Graph - MST](week-10/week-10.pdf)
+* [C# Tekrarı](week-1/week-1.pdf) (*1. hafta*)
+* [Yığıtlar ve Kuyruklar](week-2/week-2.pdf) (*2. hafta*)
+* [Bağlı Listeler](week-3/week-3.pdf) (*3. hafta*)
+* [Ağaçlar](week-4/week-4.pdf) (*4. hafta*)
+* [Dengeli Ağaçlar](week-5/week-5.pdf) (*5. hafta*)
+* [AVL Ağaçları](week-6/week-6.pdf) (*6. hafta*)
+* [Heap, 2-3 ve B Ağaçları](week-7/week-7.pdf) (*7. hafta*)
+* [Özetleme Fonksiyonları - Hashing](week-8/week-8.pdf) (*8. hafta*)
+* [Çizge - Graph](week-9/week-9.pdf) (*9. hafta*)
+* [Çizge - Graph - MST](week-10/week-10.pdf) (*10. hafta*)
 
 *Geçmiş Yılların Sınav Soruları*
 
