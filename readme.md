@@ -4,6 +4,8 @@
 
 **Pamukkale Üniversitesi Bilgisayar Mühendisliği Veri Yapıları Eğitim Dökümanları**
 
+[Diğer ders dökümanları için..](https://ders.im/)
+
 *Sunumlar*
 
 * [C# Tekrarı](week-1/week-1.pdf) (*1. hafta*)
